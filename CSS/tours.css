@@ -1,0 +1,255 @@
+.tour-menu{
+    text-transform: uppercase;
+    cursor: default;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+
+.info{
+    margin-top:70px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.info p{
+    font-size: 12px;
+}
+
+.info h3{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+    flex-direction: row;
+}
+
+.tours{
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.ftcv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ftcv h3{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    /*flex-direction: row;*/
+    margin-bottom: 5px;
+
+}
+figure{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ftcv img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 290px;
+    /*justify-content: center;*/
+    /*position: relative;*/
+    z-index: 99;
+}
+
+/*.imagen__tours{
+    width: 90%;
+}*/
+.imagen__tours p{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    color: rgb(252, 249, 249);
+    z-index: 99;
+    top: -130px;
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .09em;
+}
+
+.acordeon{
+    width: 90%;
+    height: auto;
+    margin-top: -140px;
+    display: flex;
+    flex-direction: column;
+    /*background-color:white;*/
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+}
+
+.acordeon input{
+    display: none;
+}
+.acordeon label{
+    display: block;
+    padding: 5px;
+    width: 110%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rosybrown;
+    cursor: pointer;
+    
+    
+}
+.acordeon__titulo{
+    display: block;
+    padding: 2px;
+}
+.acordeon__contenido{
+    width: 95%;
+    height: 0;
+    
+    transform: translateX(-2000px);
+    overflow: hidden;
+    transition:all .5s;
+}
+.acordeon__contenido {
+    margin-right: 20px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #000;
+    font-weight:bold;
+}
+
+.acordeon__contenido span{
+    color: violet;
+}
+#acordeon__btn{
+    background: violet;
+
+}
+.acordeon__item input:checked ~ .acordeon__contenido{
+    height: auto;
+    transform: translateX(20px);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    transition: all .5s;
+}
+
+.contenido li{
+    text-align: left;
+    left: 40px;
+}
+
+
+@media (min-width:1024px){
+    .tours{
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin-bottom: 10px;
+    
+    }
+    .ftcv{
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .ftcv h3{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        /*flex-direction: row;*/
+        margin-bottom: 5px;
+    
+    }
+    figure{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ftcv img{
+        width: 60%;
+    
+        height: 300px;
+        justify-content: center;
+    }
+    
+    
+    .imagen__tours p{
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .acordeon { 
+        text-align: center;
+        color: #fff;
+        z-index: 99;
+        top: 0;
+        margin-top: -100px;
+        font-size: 15px;
+        
+        
+    }
+    
+    .acordeon{
+        width: 50%;
+        margin-top: -100px;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .acordeon__titulo{
+        height:50px;
+    }
+    
+    
+    
+    .acordeon__contenido {
+        margin-right: 30px;
+        font-size: 15px;
+        
+    }
+    
+    .acordeon__item{
+        width: 70%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    
+    
+    .contenido li{
+        text-align: left;
+        left: 40px;
+    }
+    
+
+    
+    
+}

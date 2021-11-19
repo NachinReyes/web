@@ -1,0 +1,117 @@
+.contacto{
+    width:100%;
+    height: 500px;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: relative;
+    
+    
+}
+
+.contacto__portada img{
+    width:100%;
+    height: 250px;
+    text-align: center;
+    
+}
+
+
+.contacto__form{
+    width: 100%;
+    position: relative;
+    top: -440px;
+    text-align: center;
+    margin-bottom:-440px;
+}
+
+.contacto__titulo h3{
+    text-align: center;
+    font-size:16px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
+.contacto__inputs{
+    width: 100%;
+    /*display: block;*/
+    text-align: center;
+    
+}
+
+.contacto__inputs input{
+    height:35px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+    background:rgba(255, 255, 255, .6);
+    
+}
+.contacto__inputs input:hover{
+    border:1px solid rgb(207, 83, 211);
+}
+
+.contacto__body{
+    width:100%;
+    text-align: center;
+    position: relative;
+  
+
+}
+label{
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+textarea{
+    width: 90%;
+    height:75px;
+    resize:none;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, .6);
+}
+input submit{
+    border-radius: 5px;
+}
+
+@media (min-width: 768px){
+
+    .contacto{
+        margin-top:20px;
+    }
+    .contacto__portada img{
+        width:100%;
+        height: auto;
+        
+    }
+
+    textarea{
+        height: 100%;
+    }
+
+
+.contacto__form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -440px;
+    margin-bottom: 10px
+   
+    }
+    .contacto__portada:before{
+        
+        
+        bottom: 85px;
+        left: 0;
+        right: 0;
+       
+    
+    }
+}

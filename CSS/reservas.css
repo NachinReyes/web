@@ -1,0 +1,179 @@
+.mapa{
+    width: 100%;
+    margin-top: 70px;
+
+}
+
+.mapa__titulo{
+    width: 90%;
+    text-align:center;
+    font-size:13px;
+    font-weight:bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 1px 3px grey;
+}
+
+.mapa__display{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.mapa__display iframe{
+    width: 100%;
+    height: 250px;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius 5px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.formulario{
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.form__titulo h3{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size:16px;
+    
+}
+
+.form__titulo h3{
+    text-align:center;
+}
+
+.form__body{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(189, 186, 186);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.form__inputs input{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    height: 40px;
+    border: none;
+    border-radius:5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.form__inputs select{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    height: 40px;
+    border: none;
+    border-radius:5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.form__inputs select:hover, input:hover{
+    border: 1px solid rgb(207, 83, 211);
+    
+    
+}
+
+.form__body input{
+    margin-top:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border: none;
+  
+    
+}
+
+.option__ftcv{
+    width: 100%;
+    height: 60px; 
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: rgba(255,255,255,0.5)#000;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px;
+}
+.option__ftcv input{
+    margin-top: 0;
+    width: 50px;
+    font-size:12px;
+}
+   
+.enviar{
+    height:40px;
+    padding: 10px 70px;
+    background: rgb(192, 94, 238);
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .2em;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .mapa__display{
+        width: 60%;
+        
+    }
+
+    .mapa__titulo{
+        font-size:15px;
+    }
+
+    .mapa__display iframe{
+        width: 100%;
+        height: 400px;
+        margin-right:auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .form__titulo h3{
+        font-size:16px;
+    }
+
+    .form__body{
+        width: 60%;
+        
+        text-align:center;
+        
+    }
+
+    .form__inputs{
+        text-align:center;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+    .form__inputs input{
+        width: 40%;
+        
+        
+    }
+
+    .form__inputs select{
+        width: 40%;
+    }
+}

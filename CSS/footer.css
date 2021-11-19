@@ -1,0 +1,187 @@
+.pie{
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #c2c0c0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+}
+.logo{
+    width: 125px;
+    height: 50px;
+    position: absolute;
+}
+
+footer .logo-pie{
+    width: 125px;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 30%;
+    position: relative;
+}
+
+.logo2 p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.redes-sociales{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.facebook img{
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.instagram img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.youtube img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.tiktok img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.avisos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactos{
+    margin-top: 10px;
+    
+    margin-bottom: 10px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contactos h4, .avisos h4, .redes-sociales h4{
+    display: none;
+}
+
+.contactos a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.avisos a{
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.avisos a:hover{
+    color: #fff;
+}
+
+@media (min-width:1024px){
+    .footer{
+        height: 300px;
+        font-size: 16px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer .logo-pie{
+        margin-left: 20px;
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;    
+    }
+    .redes-sociales{ 
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;  
+    }
+
+    .redes-sociales a{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .redes-sociales img:hover{
+        box-shadow: 3px 3px 10px rgb(189, 183, 183);
+    }
+
+    .avisos{
+        margin-top: 25px;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .avisos a{
+        margin-left: 20px;
+        margin-bottom: 22px;
+    }
+
+    .contactos{
+        margin-top: 25px;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactos a p{
+        display: flex;
+        flex-direction: column ;
+    }
+    
+    .contactos a{
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+ 
+    .contactos h4, .avisos h4, .redes-sociales h4{
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
