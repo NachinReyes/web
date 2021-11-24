@@ -1,0 +1,23 @@
+.blog-container{
+    position: relative;
+    margin-top: 75px;
+    width:98%;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.article1, .article2, .article3, .article4, .article5{
+    margin-top:10px;
+    margin-bottom:10px;
+    
+    width: 80%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}

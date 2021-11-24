@@ -11,20 +11,33 @@ header .logo{
     cursor: pointer;
 }
 
+.down {
+    background-color: rgba(177, 171, 171, 0.9) !important;
+    transition: 1.5s ease all;
+  }
+
+.up{
+    
+    transition: 1.5s ease all;
+}
+
+
 #menu-bar{
     display: none;
 }
 header label{
     position: relative;
     top: 10px;
-
     width:40px;
-    /*margin: 6px, 0;*/
+    margin: 6px, 0;
     float: right;
     cursor: pointer;
     font-size: 15px;
-    
+    z-index: 104;
+    color:var(--color_principal)
 }
+
+
 #barra{
     display: block;
 }
@@ -35,31 +48,32 @@ header label{
 
 .menu{
     position: absolute;
-    top: 50px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(51, 51,51, .9);
+    background: rgba(51, 51, 51, .9);
     transition: all 0.5s;
-    transform: translateX(-2000px);
-    
+    transform: translateX(-1024px);
+    z-index: 103;
     
 }
 
 .menu a{
     display: block;
-    color: white;
+    color: var(--color_principal);
     height: 50px;
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, .5);
     transition: all 0.7s;
     transform: translateY(2000px);
+    font-weight: bold;
 }
 
 .menu a:hover{
     background: rgba(255, 255, 255, .3);
-    ;
+    
 }
 .disabled{
     cursor:default;
@@ -80,31 +94,33 @@ header label{
 
 @media (min-width:1024px) {
     .menu{
-        
+        /*background: rgba(230, 123, 24);*/
         position: static;
         width: auto;
-        height: 50px;
+        height: 0;
         transform: translateX(0);
         float: right;
         display: flex;
         padding: 10px;
-        
+        background:none;
     }
     .menu a{
         
         transform: translateY(0);
         border-bottom: none;
-          
-        height: 40px;
+        color: rgb(219, 60, 224); 
+        height: 35px;
         margin-right: 25px;
         padding: 10px;
         
     }
 
     .menu a:hover{
-        color: white;
+        color: rgb(5, 5, 5);
         font-weight: bold;
-        text-shadow: 3px 3px 7px rgb(251, 251, 252);
+        /*text-shadow: 1px 1px 2px rgb(61, 61, 61);*/
+        border-bottom: 3px solid var(--color_principal);
+        background: none;
         
     }    
 
@@ -126,9 +142,9 @@ header label{
         
     }     
     
-    .icon-menu .icon-cancel{
+    /*.icon-menu .icon-cancel{
         display: none;
-    }
+    }*/
 
     
 }
