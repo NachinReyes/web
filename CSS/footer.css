@@ -1,12 +1,18 @@
-.pie{
+/*.pie{
     width: 100%;
     height: auto;
-}
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+}*/
 
 footer {
     width: 100%;
     height: auto;
-    background: #c2c0c0;
+    position:relative;
+    bottom: 0;
+    top: 10px;
+    background: rgb(230, 123, 24);
 }
 
 .footer {
@@ -19,7 +25,7 @@ footer {
     color: #000;
     font-size: 14px;
 }
-.logo{
+logo2{
     width: 125px;
     height: 50px;
     position: absolute;
@@ -29,6 +35,7 @@ footer .logo-pie{
     width: 125px;
     height: 50px;
     margin-top: 0;
+    margin-bottom:0;
     margin-left: 30%;
     position: relative;
 }
@@ -76,7 +83,7 @@ footer .logo-pie{
 .avisos{
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 98%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

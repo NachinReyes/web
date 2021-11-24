@@ -57,13 +57,13 @@ figure{
     justify-content: center;
     flex-direction: column;
 }
+
+
 .ftcv img{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     height: 290px;
-    /*justify-content: center;*/
-    /*position: relative;*/
     z-index: 99;
 }
 
@@ -109,7 +109,7 @@ figure{
     border-radius: 3px;
     margin-bottom: 0px;
     text-align: center;
-    background-color: rosybrown;
+    background-color: var(--color_principal);
     cursor: pointer;
     
     

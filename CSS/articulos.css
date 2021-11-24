@@ -95,7 +95,7 @@ figure .cerveza{
 }*/
 
 
-@media (min-width:800px) {
+@media (min-width:1024px) {
     .card{
         border: 1px solid black;
         box-shadow: 3px 3px 10px black;
