@@ -15,12 +15,6 @@ header .logo{
     transition: 1.5s ease all;
   }
 
-.up{
-    
-    transition: 1.5s ease all;
-}
-
-
 #menu-bar{
     display: none;
 }
