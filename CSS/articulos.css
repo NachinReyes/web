@@ -93,7 +93,7 @@ figure .cerveza{
     color:white;
 }*/
 
-@media(min-width:768px{
+@media(min-width:768px){
     .card{
        width:400px;
        heights:400px;
