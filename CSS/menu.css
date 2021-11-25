@@ -28,6 +28,7 @@ header label{
     font-size: 20px;
     z-index: 104;
     color:var(--color_principal)
+
 }
 
 #barra{
@@ -48,7 +49,9 @@ header label{
     transition: all 0.5s;
     transform: translateX(-1024px);
     z-index: 103;
-    
+    border:2px solid var(--color_principal);
+    text-align:center;
+    border-radius:4px;
 }
 
 .menu a{
