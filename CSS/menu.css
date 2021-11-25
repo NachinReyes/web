@@ -32,7 +32,7 @@ header label{
     margin: 6px, 0;
     float: right;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
     z-index: 104;
     color:var(--color_principal)
 }
