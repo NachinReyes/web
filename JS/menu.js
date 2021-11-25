@@ -6,11 +6,6 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("down", window.scrollY>200);
 })
 
-window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("up", window.scrollY<200);
-})
-
 menu.onclick = function(){
     menu.style.display="none"
     cerrar.style.display="block";
