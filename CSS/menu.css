@@ -37,7 +37,9 @@ header label{
     color:var(--color_principal)
 }
 
-
+.icon-menu{
+    font-size:20px;
+}
 #barra{
     display: block;
 }
