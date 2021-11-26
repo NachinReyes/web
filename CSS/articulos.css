@@ -106,13 +106,13 @@ figure .cerveza{
         border: 1px solid black;
         box-shadow: 3px 3px 10px black;
         border-radius: 6px;
-        width: 25%;
+        width: 30%;
         
     }
     .card img{
         box-shadow: none;
         width: 100%;
-        height: 280px;
+        height: 290px;
         padding: 8px;
         background: rgba(0, 0, 0, .1);
         
@@ -127,7 +127,7 @@ figure .cerveza{
         font-size: 25px;        
     }
     .contenido h2{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     figure .cerveza{
