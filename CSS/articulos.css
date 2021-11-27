@@ -108,7 +108,7 @@ figure .cerveza{
         box-shadow: 3px 3px 10px black;
         border-radius: 6px;
         width: 30%;
-        
+        height:440px;
     }
     .card img{
         box-shadow: none;
