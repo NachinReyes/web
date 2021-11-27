@@ -50,11 +50,9 @@
 }
 
 figure .cerveza{
-    width: 300px;
+    width: 80%;
     height: 280px;
     background:none;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .contenido{
@@ -91,23 +89,21 @@ figure .cerveza{
     }
     
     .card{
-        
+        margin-bottom:15px;
         width: 30%;
         height:440px;
+        margin-left:auto;
+        margin-right:auto;
     }
     .card img{
         box-shadow: none;
-        width: 90%;
+        width: 100%;
         height: 280px;
-        border-radios:6px;
-        background: rgba(0, 0, 0, .1);
-        
+        margin-left:auto;
+        margin-right:auto;    
     }
     
-    .card:hover{
-        cursor: pointer;
-    }
-
+ 
     #articulos h3{
         letter-spacing: .5rem;
         font-size: 25px;        
