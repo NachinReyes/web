@@ -57,12 +57,16 @@ header{
 .cover{
     z-index: 99;
     display: flex;
+    flex-direction: column;
     width: 90%;
+    height:auto; 
+    top: -350px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    text-align:center;
-}
+    text-align: center;
 
+}
 h1{
     font-size: 50px;
     z-index: 1000;
