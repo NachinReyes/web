@@ -30,6 +30,8 @@
 .card img{
     width: 100%;
     height:280px;
+    margin-lef:auto;
+    margin-right:auto;
 }
 
 .card h5{
@@ -86,17 +88,15 @@ figure .cerveza{
     }
     
     .card{
-        border: 1px solid black;
-        box-shadow: 3px 3px 10px black;
-        border-radius: 6px;
+        
         width: 30%;
         height:440px;
     }
     .card img{
         box-shadow: none;
-        width: 100%;
+        width: 90%;
         height: 280px;
-        padding: 8px;
+        border-radios:6px;
         background: rgba(0, 0, 0, .1);
         
     }
@@ -117,7 +117,7 @@ figure .cerveza{
     
     figure .cerveza{
         width:70%;
-        height: 270px;
+        height: 280px;
         background:none;
         margin-left: auto;
         margin-right:auto;
