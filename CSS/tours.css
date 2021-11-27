@@ -7,7 +7,8 @@
 
 
 .info{
-    margin-top:70px;
+    margin-top:0;
+    padding:70px;
     padding: 15px;
     margin-bottom: 10px;
 }
