@@ -65,6 +65,7 @@ figure .cerveza{
    position: relative;
    overflow: hidden;
    padding: 10px;
+    margin-top:10px;
 }
 
 .contenido h2{
