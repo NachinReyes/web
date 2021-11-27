@@ -9,7 +9,8 @@
 }
 
 
-#articulos .contenedor{
+#articulos .contenedor__articulos{
+    width:90%;
     display: flex;
     flex-wrap: wrap;    
     justify-content: center;
@@ -27,8 +28,8 @@
 
 
 .card img{
-    
     width: 100%;
+    height:280px;
 }
 
 .card h5{
@@ -79,6 +80,11 @@ figure .cerveza{
 
 
 @media (min-width:1024px) {
+    
+    #articulos .contenedor__articulos{
+        width:100%;
+    }
+    
     .card{
         border: 1px solid black;
         box-shadow: 3px 3px 10px black;
@@ -89,7 +95,7 @@ figure .cerveza{
     .card img{
         box-shadow: none;
         width: 100%;
-        height: 290px;
+        height: 280px;
         padding: 8px;
         background: rgba(0, 0, 0, .1);
         
@@ -104,6 +110,7 @@ figure .cerveza{
         font-size: 25px;        
     }
     .contenido h2{
+        margin-top:0;
         font-size: 20px;
     }
 
@@ -111,6 +118,7 @@ figure .cerveza{
         width: 100%;
     }
     figure .cerveza{
+        width:80%;
         height: 270px;
         background:none;
         margin-left: 0;
