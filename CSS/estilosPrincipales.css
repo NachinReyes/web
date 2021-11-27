@@ -57,7 +57,7 @@ header{
 .cover{
     z-index: 99;
     display: flex;
-    width: 90%;
+    width: 80%;
     left: 50px;
     top: -50px;
     position: relative;
