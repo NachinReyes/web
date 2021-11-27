@@ -96,7 +96,7 @@ figure .cerveza{
 @media(min-width:550px){
     .card{
        width:400px;
-       heights:400px;
+       heights:425px;
        bottom:15px;
 }
 }
