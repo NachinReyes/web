@@ -2,7 +2,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin-top: -40px;
+	margin-top: 80px;
 }
 
 
@@ -60,7 +60,7 @@
 		font-size: 20px;
 	}
 	.contenedor-botones {
-		margin-top:-250px;		
+		margin-top:-350px;		
 	}
 
 }
