@@ -1,5 +1,6 @@
 let menu =document.getElementById("barra");
 let cerrar = document.getElementById("cerrar");
+let btnReserva =document.getElementById("reserva");
 
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
@@ -30,3 +31,6 @@ document.getElementById("logo").onclick = function (){
     window.location.href="../index.html";
 } 
 
+btnReserva.onclick=function(){
+    window.location.href="HTML/reservas.html";
+}
