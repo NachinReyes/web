@@ -19,14 +19,6 @@ cerrar.onclick = function(){
     
 }
 
-var tamanoPantalla =Screen.Width=1024;
-if(tamanoPantalla >1024){
-    console.log("hola");
-    menu.style.display="none";
-    cerrar.style.display="none";
-}
-
-
 document.getElementById("logo").onclick = function (){
     window.location.href="../index.html";
 } 
