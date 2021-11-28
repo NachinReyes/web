@@ -11,7 +11,7 @@ header .logo{
 }
 
 .down {
-    background-color: rgba(177, 171, 171, 0.9) !important;
+    background-color: rgba(14, 14, 14, 0.5) !important;
     transition: 1.5s ease all;
   }
 
