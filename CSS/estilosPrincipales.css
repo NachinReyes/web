@@ -10,6 +10,8 @@
 @import url(reservas.css);
 @import url(contacto.css);
 @import url(blog.css);
+@import url(coverResponsive.css);
+
 
 :root{
 --color_principal:#c86ad9;
