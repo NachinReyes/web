@@ -15,8 +15,8 @@
 
 :root{
 --color_principal:#c86ad9;
---color_secundario:rgb(51,51,51);
---tercer_color:rgb(13, 65, 58);
+--color_secundario:#AQD2EB;
+--tercer_color:#494D5F;
 }
 
 *{
