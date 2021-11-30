@@ -33,7 +33,7 @@ main{
 
 @keyframes opacidad {
  from{   
-   
+    transformación:scale(1);
  }
  to{ 
     
