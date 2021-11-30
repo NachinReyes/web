@@ -23,6 +23,25 @@ main{
     display:none;
 }
 
+.slider{
+    animation-name: opacidad;
+    animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+
+
+
+@keyframes opacidad {
+ from{   
+   
+ }
+ to{ 
+    
+     transform:scale(1.2);
+     
+ }
+  }
+
 .slider-section{
     width: 100%;
 
