@@ -27,6 +27,7 @@ main{
     animation-name: opacidad;
     animation-duration: 8s;
    animation-iteration-count: infinite;
+    transition-delay:1s;
 }
 
 
