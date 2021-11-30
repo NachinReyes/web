@@ -14,7 +14,7 @@ function next(){
         /*slider.style.transition= "none"*/
         slider.insertAdjacentElement('beforeend', sliderSectionFirst);
         slider.style.marginLeft = "-100%";
-    },2)
+    },1)
 
 }
 
@@ -31,7 +31,7 @@ function prev (){
         /*slider.style.transition= "none"*/
         slider.insertAdjacentElement('afterbegin', sliderSectionLast);
         slider.style.marginLeft = "-100%";
-    },2)
+    },1)
 
 }
 
