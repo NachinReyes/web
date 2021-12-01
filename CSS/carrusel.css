@@ -34,11 +34,11 @@ main{
 
 @keyframes opacidad {
  from{   
-    transformación:scale(1);
+    transformación:scale(1.2);
  }
  to{ 
     
-     transform:scale(1.2);
+     transform:scale(1);
      
  }
   }
