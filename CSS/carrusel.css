@@ -25,7 +25,7 @@ main{
 
 .slider{
     animation-name: opacidad;
-    animation-duration: 7s;
+    animation-duration: 8s;
    animation-iteration-count: infinite;
     
 }
