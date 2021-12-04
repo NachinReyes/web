@@ -11,6 +11,7 @@ header .logo{
 }
 
 .down {
+    transform:translateY(0) 
     background-color:#a0d2eb;
     transition: 1.5s;
   }
