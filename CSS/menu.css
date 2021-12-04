@@ -35,10 +35,12 @@ header label{
 
 #barra{
     display: block;
+    transition:.5s;
 }
 
 #cerrar{
     display: none;
+    transition:.5s;
 }
 
 .menu{
