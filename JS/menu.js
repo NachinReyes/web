@@ -3,7 +3,7 @@ let cerrar = document.getElementById("cerrar");
 
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
-    header.classList.toggle("down", window.scrollY>200);
+    header.classList.toggle("down", window.scrollY>1);
 })
 
 menu.onclick = function(){
