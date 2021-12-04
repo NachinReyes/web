@@ -64,7 +64,7 @@ header label{
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, .5);
-    transition:0.7s;
+    transition:0.7s;lo
     transform: translateX(2000px);
     font-weight: bold;
 }
@@ -79,10 +79,10 @@ header label{
     text-transform: uppercase;
     font-weight: bold;
     color: red;
-}
+
 
 . disabled span{
-    color:Red;
+    color:red;
 }
 
 #menu-bar:checked ~ .menu{
