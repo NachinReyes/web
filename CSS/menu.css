@@ -78,8 +78,8 @@ header label{
     pointer-events: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: red;
 
+}
 
 .disabled span{
     color:red;
