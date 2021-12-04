@@ -35,7 +35,7 @@ main{
 @keyframes opacidad {
  from{   
     transform:scale(1);
-    transition: all 1s;
+    transition:1s;
  }
  to{ 
     
@@ -108,7 +108,7 @@ main{
         width: 40px;
         height: 40px;
         font-size: 30px;
-        display: block;
+       
     } 
 
 }
