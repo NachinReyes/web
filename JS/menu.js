@@ -16,13 +16,13 @@ menu.onclick = function(){
 cerrar.onclick = function(){
     cerrar.style.display="none";
     menu.style.display="block" 
-    
+    if(window.matchMedia("(min-width: 1024px)")){
+        location.reload();
+    }
 }
 
 document.getElementById("logo").onclick = function (){
     window.location.href="../index.html";
 } 
 
-btnReserva.onclick=function(){
-    window.location.href="HTML/reservas.html";
-}
+
