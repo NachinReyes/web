@@ -54,7 +54,7 @@ header label{
     transition:0.7s;
     transform: translateX(-1024px);
     z-index: 103;
-    Filter:opacity(.7);
+    Filter:opacity(.9);
 }
 
 .menu a{
