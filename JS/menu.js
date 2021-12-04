@@ -14,10 +14,7 @@ menu.onclick = function(){
 
 cerrar.onclick = function(){
     cerrar.style.display="none";
-    menu.style.display="block" 
-    if(window.matchMedia("(min-width: 1024px)")){
-        location.reload();
-    }
+    menu.style.display="block"; 
 }
 
 document.getElementById("logo").onclick = function (){
