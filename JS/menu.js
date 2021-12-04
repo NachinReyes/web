@@ -1,6 +1,5 @@
 let menu =document.getElementById("barra");
 let cerrar = document.getElementById("cerrar");
-let btnReserva =document.getElementById("reserva");
 
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
