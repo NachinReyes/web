@@ -50,7 +50,7 @@ header label{
     width: 70%;
     height: 100vh;
     background: rgba(51, 51, 51, .9);
-    transition: all 0.5s;
+    transition:0.7s;
     transform: translateX(-1024px);
     z-index: 103;
 }
@@ -62,7 +62,7 @@ header label{
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, .5);
-    transition: all 0.7s;
+    transition:0.7s;
     transform: translateX(2000px);
     font-weight: bold;
 }
