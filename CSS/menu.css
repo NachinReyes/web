@@ -50,7 +50,7 @@ header label{
     left: 0;
     width: 70%;
     height: 100vh;
-    background: rgba(51, 51, 51, .9);
+    background: #d0bdf4;
     transition:0.7s;
     transform: translateX(-1024px);
     z-index: 103;
