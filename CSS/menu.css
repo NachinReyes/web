@@ -131,7 +131,10 @@ header label{
         display: none;
     }  
     #barra{
-        display: none;
+        left: -2000px;
+    }
+    #cerrar{
+        left:-2000px;
     }
 
     header.logo{
