@@ -11,11 +11,18 @@ header .logo{
 }
 
 .down {
-    transform:translateY(0); 
-    background-color:#a0d2eb;
-    transition: 1.5s;
-    box-shadow: 3px 3px 7px rgba(129, 44, 240, .5);
+    background-color: #a0d2eb;
+    animation-name: abajo;
+    animation-duration:1s;
+
+
   }
+
+@keyframes abajo {
+    from { transform: translateY(-100px)}
+
+    to{ transform: translateY(0)} 
+}
 
 #menu-bar{
     display: none;
