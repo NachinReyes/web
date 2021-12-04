@@ -54,7 +54,7 @@ header label{
     transition:0.7s;
     transform: translateX(-1024px);
     z-index: 103;
-    Filter:opa city(.7);
+    Filter:opacity(.7);
 }
 
 .menu a{
@@ -79,6 +79,10 @@ header label{
     text-transform: uppercase;
     font-weight: bold;
     color: red;
+}
+
+. disabled span{
+    color:Red;
 }
 
 #menu-bar:checked ~ .menu{
