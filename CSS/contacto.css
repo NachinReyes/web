@@ -95,7 +95,7 @@ input submit{
 
     .contacto{
         width: 70%;
-        height:400px;
+        height:450px;
     }
 
     .contacto__form{
@@ -104,7 +104,7 @@ input submit{
         margin-right: auto;
         position: relative;
         text-align: center;
-        top: -520px;
+        top: -600px;
     }
     .contacto__inputs{
         
