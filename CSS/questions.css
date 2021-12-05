@@ -1,0 +1,102 @@
+.questions__acordeon{
+    width: 90%;
+    height: auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(89, 142, 223);
+    
+}
+
+/*.questions__acordeon__item {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    
+}*/
+.questions__acordeon input{
+    display: none;
+}
+.questions__acordeon label{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    margin-top: 0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: var(--color_principal);
+    cursor: pointer;
+    
+}
+.questions__acordeon__titulo{
+    display: block;
+    padding: 2px;
+}
+.questions__acordeon__contenido{
+    width: 90%;
+    height: 0;
+    padding: 10px;
+    
+    transform: translateX(1024px);
+    overflow: hidden;
+    transition:all .5s;
+}
+.questions__acordeon__contenido {
+    margin-right: 20px;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #000;
+    font-weight:bold;
+}
+
+.questions__acordeon__contenido span{
+    color: violet;
+}
+
+.questions__acordeon__item input:checked ~ .questions__acordeon__contenido{
+    height: auto;
+    transform: translateX(20px);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    transition: .5s;
+    margin-bottom:15px;
+}
+
+@media (min-width: 1024px){
+    .questions__acordeon{
+        width: 70%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .questions__acordeon__item {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .questions__acordeon label{
+        display: block;
+        padding: 15px;
+        width: 100%;
+        height: 50px;
+        margin-top: 15px;
+        border-radius: 4px;
+        margin-bottom: 0px;
+        text-align: center;
+        background-color: var(--color_principal);
+        cursor: pointer;
+        
+    }
+}

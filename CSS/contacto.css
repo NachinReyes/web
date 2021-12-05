@@ -1,54 +1,60 @@
 .contacto{
-    width:100%;
-    height: 500px;
-    margin-top:0;
+
+    width:90%;
+    height: 400px;
+    margin-top:90px;
+    margin-bottom:200px;
     margin-left: auto;
     margin-right: auto;
-    display: relative;
+    display:ausolute;
+    background: rgb(89, 142, 223);
+    border-radius:6px;
     
     
 }
 
-.contacto__portada img{
-    width:100%;
-    height: 250px;
-    text-align: center;
-    
-}
 
 
 .contacto__form{
-    width: 100%;
+    width: 90%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    top: -440px;
+    top: -570px;
     text-align: center;
-    margin-bottom:-440px;
+    margin-bottom:-420px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contacto__titulo h3{
     text-align: center;
     font-size:16px;
-    color: #fff;
+    color: #000;
     font-weight: bold;
     margin-bottom:5px;
 }
 
 .contacto__inputs{
     width: 100%;
-    /*display: block;*/
+    display: flex;
+    flex-direction: column;
     text-align: center;
     
 }
 
 .contacto__inputs input{
-    height:35px;
+    height:40px;
+    width: 80%;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     border-radius: 5px;
     border: none;
     background:rgba(255, 255, 255, .6);
-    margin-bottom:7px;
+    
 }
 .contacto__inputs input:hover{
     border:1px solid rgb(207, 83, 211);
@@ -63,7 +69,7 @@
 }
 label{
     display: block;
-    color: #fff;
+    color: #000;
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -76,42 +82,40 @@ textarea{
     border-radius: 5px;
     box-sizing: border-box;
     background:rgba(255, 255, 255, .6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 input submit{
     border-radius: 5px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
 
     .contacto{
-        margin-top:0;
-    }
-    .contacto__portada img{
-        width:100%;
-        height: auto;
-        
+        width: 70%;
+        height:400px;
     }
 
-    textarea{
-        height: 100%;
+    .contacto__form{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        text-align: center;
+        top: -520px;
+    }
+    .contacto__inputs{
+        
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+    .contacto__inputs inputs{
+        width: 50%;
+
     }
 
-
-.contacto__form{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    top: -440px;
-    margin-bottom: 10px
-   
-    }
-    .contacto__portada:before{
-        
-        
-        bottom: 85px;
-        left: 0;
-        right: 0;
-       
-    
-    }
 }
