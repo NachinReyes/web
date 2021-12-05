@@ -88,6 +88,7 @@ textarea{
     margin-bottom: 20px;
 }
 input submit{
+    height:40px;
     border-radius: 5px;
 }
 
