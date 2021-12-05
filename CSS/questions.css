@@ -45,7 +45,7 @@
     height: 0;
     padding: 10px;
     
-    transform: translateX(1024px);
+    transform: translateX(-2000px);
     overflow: hidden;
     transition:all .5s;
 }
