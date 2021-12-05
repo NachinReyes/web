@@ -43,6 +43,7 @@
 }
 .questions__acordeon__contenido{
     width: 90%;
+    height:30px;
     background:#e5eaf5;
     height: 0;
     padding: 10px;
