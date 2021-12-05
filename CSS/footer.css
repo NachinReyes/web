@@ -166,6 +166,7 @@ footer .logo-pie{
     .avisos a{
         margin-left: 20px;
         margin-bottom: 22px;
+        flex-direction:column;
     }
 
     .contactos{
