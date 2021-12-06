@@ -1,3 +1,22 @@
+.blog__titulo{
+    width: 90%;
+    margin-top:70px;
+    text-align:center;
+    border-bottom: 3px double black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog__titulo h2{
+    .blog__titulo h2{
+    font-size:72px;
+}
+
+.blog__titulo p{
+    font-weight: 700;
+    margin-bottom:20px;
+}
+
 .blog-container{
     position: relative;
     margin-top: 75px;
