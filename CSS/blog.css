@@ -19,21 +19,44 @@
     margin-bottom:20px;
 }
 
-.article{
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 450px;
+.blog__grid{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+     
 }
 
-.article img{
+.article{
+    position: relative;
+    margin-top:10px;
+    margin-bottom:10px;
     width: 90%;
-    height: 280px;
-    margin-left:auto;
-    margin-right:auto;
+    height: 450px;
+    background: #e5eaf5;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px rgb(177, 175, 175);
+}
+
+.article figure{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.article img{
     
+    width: 100%;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+#learnCzech img{
+    width: 60%;
 }
 .article img:hover{
     filter:brightness(70%);
@@ -54,12 +77,40 @@
 }
 
 .blog__parrafo{
+    
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding:10px;
 
 }
+@media (min-width: 550px){
+    .blog__grid{
+        margin-top:20px;
+        width: 98%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px;
+        gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        }
+    
 
+    .article{
+        position: relative;
+        margin-top:10px;
+        margin-bottom:10px;
+        width: 100%;
+        height: 400px;
+        background: #e5eaf5;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 1px 3px rgb(177, 175, 175);
+    }
+
+}
 @media (min-width: 1024px){
 
     .blog__titulo h2{
@@ -76,7 +127,6 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 40px;
-        justify-items:center;
         }
     
 
@@ -84,11 +134,10 @@
     .article{
         width: 90%;
         height:450px;
-
-
+        
     }
     .article img{
-        width: 300px;
+        width: 100%;
         height: 250px;
         
     
