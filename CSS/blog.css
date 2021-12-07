@@ -109,6 +109,13 @@
         margin-right: auto;
         box-shadow: 1px 1px 3px rgb(177, 175, 175);
     }
+    
+    .article:active{
+        box-shadow: 0 0 0;
+        transform: scale(.99);
+    
+    }
+    
 
 }
 @media (min-width: 1024px){
