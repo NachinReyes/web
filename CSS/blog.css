@@ -36,7 +36,7 @@
     
 }
 .article img:hover{
-    filter:brightness(80%);
+    filter:brightness(70%);
     z-index: 100;
     cursor: pointer;
 
