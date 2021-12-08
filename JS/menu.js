@@ -13,6 +13,7 @@ menu.onclick = function(){
 }
 
 cerrar.onclick = function(){
+    cerrar.style.transform="rotate-x(45deg)";
     cerrar.style.display="none";
     menu.style.display="block"; 
 }
