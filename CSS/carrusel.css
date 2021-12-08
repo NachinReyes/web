@@ -23,7 +23,7 @@ main{
     
 }
 
-.slider-section img{
+.slider-section{
     animation-name: opacidad;
     animation-duration: 8s;
    animation-iteration-count: infinite;
