@@ -7,14 +7,14 @@ window.addEventListener("scroll", function(){
 })
 
 menu.onclick = function(){
-    menu.style.transform="rotate-x(45deg);
+    menu.style.transform="rotate(45deg);
     menu.style.display="none"
     cerrar.style.display="block";
     
 }
 
 cerrar.onclick = function(){
-    cerrar.style.transform="rotate-x(45deg)";
+    cerrar.style.transform="rotate(45deg)";
     cerrar.style.display="none";
     menu.style.display="block"; 
 }
