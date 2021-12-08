@@ -1,4 +1,4 @@
-Lolet menu =document.getElementById("barra");
+let menu =document.getElementById("barra");
 let cerrar = document.getElementById("cerrar");
 
 window.addEventListener("scroll", function(){
@@ -7,14 +7,14 @@ window.addEventListener("scroll", function(){
 })
 
 menu.onclick = function(){
-    
+   
     menu.style.display="none"
     cerrar.style.display="block";
     
 }
 
 cerrar.onclick = function(){
-
+    
     cerrar.style.display="none";
     menu.style.display="block"; 
 }
