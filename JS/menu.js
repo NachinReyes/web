@@ -7,6 +7,7 @@ window.addEventListener("scroll", function(){
 })
 
 menu.onclick = function(){
+    menu.style.transform="rotate-x(45deg);
     menu.style.display="none"
     cerrar.style.display="block";
     
