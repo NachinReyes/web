@@ -24,6 +24,7 @@ main{
 }
 
 .slider-section{
+    overflow:hidden;
     animation-name: opacidad;
     animation-duration: 8s;
    animation-iteration-count: infinite;
