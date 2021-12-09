@@ -31,7 +31,8 @@
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(89, 142, 223);
+    background: rgb(152,152,236);
+    background: radial-gradient(circle, rgba(152,152,236,0.7122199221485469) 0%, rgba(182,182,237,1) 31%, rgba(213,239,245,1) 76%);
     
 }
 
