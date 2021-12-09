@@ -84,6 +84,13 @@
     padding:10px;
 
 }
+.blog__pie__parrafo{
+    
+    margin-top:-105px;
+    color:#fff; 
+
+}
+
 @media (min-width: 550px){
     .blog__grid{
         margin-top:20px;
