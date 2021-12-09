@@ -31,8 +31,8 @@
     position: relative;
     margin-top:10px;
     margin-bottom:10px;
-    width: 90%;
-    height: 450px;
+    width: 80%;
+    height: 350px;
     background: #e5eaf5;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +49,7 @@
 .article img{
     
     width: 100%;
-    height: 280px;
+    height: 250px;
     margin-left: auto;
     margin-right: auto;
 
@@ -87,7 +87,7 @@
 @media (min-width: 550px){
     .blog__grid{
         margin-top:20px;
-        width: 98%;
+        width: 95%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 450px;
@@ -140,7 +140,7 @@
 
     .article{
         width: 90%;
-        height:450px;
+        height:400px;
         
     }
     .article img{
@@ -155,4 +155,10 @@
         
     }
 
+}
+@media (min-width: 1200px){
+    .blog__grid{
+        
+        width: 80%;
+    }
 }
