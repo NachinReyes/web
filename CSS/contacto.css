@@ -1,4 +1,4 @@
-.questions__titulo{
+.contacto__titulo{
     width: 90%;
     margin-top:70px;
     text-align:center;
@@ -7,14 +7,14 @@
     margin-right: auto;
 }
 
-.questions__titulo h2{
+.contacto__titulo h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:48px;
     margin-bottom:10px;
 }
 
 
-.questions__titulo p{
+.contacto__titulo p{
     font-weight: 700;
     margin-bottom:20px;
 }
