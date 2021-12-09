@@ -1,3 +1,23 @@
+.reservas__titulo{
+    width: 90%;
+    margin-top:70px;
+    text-align:center;
+    border-bottom: 3px double black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservas__titulo h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+
+.reservas__titulo p{
+    font-weight: 700;
+    margin-bottom:20px;
+}
 .mapa{
     width: 100%;
     margin-top: 0;
