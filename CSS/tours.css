@@ -4,7 +4,33 @@
     pointer-events: none;
     font-weight: bold;
 }
+.tour-menu{
+    text-transform: uppercase;
+    cursor: default;
+    pointer-events: none;
+    font-weight: bold;
+}
 
+.tours__titulo{
+    width: 90%;
+    margin-top:70px;
+    text-align:center;
+    border-bottom: 3px double black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tours__titulo h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+
+.tours__titulo p{
+    font-weight: 700;
+    margin-bottom:20px;
+}
 
 .info{
     margin-top:0;
