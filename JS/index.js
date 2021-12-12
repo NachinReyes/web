@@ -2,8 +2,14 @@ window.sr=ScrollReveal();
 /***********INDEX**************/
 sr.reveal(".container-slider",{
     duration: 2000,
+    origin:"top",
+    distance: "200px"
+});
+
+sr.reveal(".cover",{
+    duration: 2000,
     origin:"bottom",
-    distance: "1px"
+    distance: "200px"
 });
 
 sr.reveal(".card",{
