@@ -110,7 +110,7 @@
     margin-bottom:15px;
 }
 .questions__acordeon__item input:checked ~ .questions__acordeon__titulo span{
-    transform:rotate(90deg);
+    transform:rotate(-180deg);
     transition:.7s;
 }
 
