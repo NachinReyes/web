@@ -89,16 +89,6 @@ main{
 }
 
 @media (min-width: 1024px){
-
-
-
-    .slider{
-        width: 300%;
-        height: 100%;
-        display: flex;
-        margin-left: -100%;
-        display:flex;
-    }
     .container-slider{
         
         height: 600px;
