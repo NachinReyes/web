@@ -65,7 +65,7 @@
 
 .questions__acordeon__titulo span{
     display:inline-block;
-    transform:rotate(-90deg);
+
     color:#fff;
     font-weight:800;
     transition:.7s;
