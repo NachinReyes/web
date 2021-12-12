@@ -6,7 +6,7 @@ sr.reveal(".container-slider",{
     distance: "1px"
 });
 
-sr.reveal("#articulos",{
+sr.reveal(".card",{
     duration: 2000,
     origin:"bottom",
     distance: "200px"
