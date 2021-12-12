@@ -18,6 +18,13 @@
     font-weight: 700;
     margin-bottom:20px;
 }
+#cont_03000b099ee32a0d03247bb0d27a7235{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    border-radius: 5px; 
+    display:none;
+}
 
 .blog__grid{
     width: 100%;
@@ -129,6 +136,10 @@
 
     .blog__titulo h2{
         font-size:72px;
+    }
+    
+    cont_03000b099ee32a0d03247bb0d27a7235{
+        display: block;
     }
 
     .blog__grid{
