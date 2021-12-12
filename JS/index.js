@@ -59,7 +59,7 @@ sr.reveal(".questions__titulo",{
     distance: "200px"
 });
 
-sr.reveal(".questions__acordeon__item",{
+sr.reveal(".questions__acordeon__item, .questions__acordeon",{
     duration: 2000,
     origin:"bottom",
     distance: "200px"
