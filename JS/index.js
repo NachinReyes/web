@@ -12,6 +12,12 @@ sr.reveal(".card",{
     distance: "200px"
 });
 
+sr.reveal(".article",{
+    duration: 2000,
+    origin:"bottom",
+    distance: "200px"
+});
+
 sr.reveal("footer",{
     duration: 2000,
     origin:"bottom",
