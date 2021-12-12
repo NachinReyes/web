@@ -103,7 +103,7 @@
 .questions__acordeon__item input:checked ~ .questions__acordeon__contenido{
     height: auto;
     transform: translateX(20px);
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 10px;
     margin-right: 20px;
     transition: .5s;
