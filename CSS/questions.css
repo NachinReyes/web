@@ -116,7 +116,7 @@
 
 @media (min-width: 1024px){
     .questions__acordeon{
-        width: 70%;
+        width: 80%;
         flex-direction: row;
         flex-wrap: wrap;
         
