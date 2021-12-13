@@ -1,17 +1,9 @@
-/*.pie{
-    width: 100%;
-    height: auto;
-    position: relative;
-    bottom: 0;
-    margin-top: 10px;
-}*/
-
 footer {
     width: 100%;
     height: auto;
     position:relative;
     bottom: 0;
-    top: 10px;
+    top: 20px;
     background: #a0d2eb;
 }
 
@@ -25,6 +17,7 @@ footer {
     color: #000;
     font-size: 14px;
 }
+
 logo2{
     width: 125px;
     height: 50px;
@@ -91,7 +84,6 @@ footer .logo-pie{
 
 .contactos{
     margin-top: 10px;
-    
     margin-bottom: 10px;
     width: 98%;
     display: flex;
@@ -122,6 +114,10 @@ footer .logo-pie{
 }
 
 .avisos a:hover{
+    color: #fff;
+}
+
+.contactos a:hover, a>p:hover{
     color: #fff;
 }
 
@@ -166,7 +162,6 @@ footer .logo-pie{
     .avisos a{
         margin-left: 20px;
         margin-bottom: 22px;
-        flex-direction:column;
     }
 
     .contactos{
@@ -175,7 +170,8 @@ footer .logo-pie{
         display: flex;
         flex-direction: column;
     }
-    .contactos a p{
+    .contactos a, p{
+        font-weight:bold;
         display: flex;
         flex-direction: column ;
     }
