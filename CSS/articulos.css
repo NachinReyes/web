@@ -3,9 +3,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    color: #c860d9;
     margin: 20px;
-    text-shadow: 2px 2px 2px blue;
 }
 
 
@@ -16,10 +14,7 @@
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
-    
 }
-
-
 
 .card{
     margin-bottom:20px;
@@ -86,7 +81,7 @@ figure .cerveza{
 @media(min-width:550px){
     .card{
        width:400px;
-       heights:425px;
+       heights:400px;
        bottom:15px;
 }
 }
@@ -99,21 +94,21 @@ figure .cerveza{
     }
     
     .card{
-        margin-bottom:15px;
         width: 30%;
         height:440px;
-        margin-left:auto;
-        margin-right:auto;
     }
     .card img{
         box-shadow: none;
-        width: 100%;
+        width: 90%;
         height: 280px;
         margin-left:auto;
-        margin-right:auto;    
+        margin-right:auto;
+        border-radius:6px;
     }
     
- 
+    card:hover{
+        cursor:pointer;
+    }
     #articulos h3{
         letter-spacing: .5rem;
         font-size: 25px;        
@@ -128,7 +123,5 @@ figure .cerveza{
         width:80%;
         height: 280px;
         background:none;
-        margin-left: auto;
-        margin-right:auto;
     }
 }
