@@ -78,6 +78,10 @@ figure .cerveza{
     color: #c860d9;
 }
 
+.contenido p{
+    display:inline;
+}
+
 
 @media(min-width:550px){
     .card{
