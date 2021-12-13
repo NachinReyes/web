@@ -104,7 +104,7 @@ footer .logo-pie{
     display: none;
 }
 
-.contactos a{
+.contactos a, p{
     text-decoration: none;
     color: black;
     display: flex;
