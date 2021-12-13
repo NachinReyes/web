@@ -34,6 +34,11 @@
     margin-right:auto;
 }
 
+.card img:hover{
+    filter:brightness(70%);
+    cursor: pointer;
+}
+
 .card h5{
     background: rgba(147, 147, 148, 0.5);
     margin-top:-230px;
