@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     height: auto;
-    position:relative;
+    position:fixed;
     bottom: 0;
     top: 20px;
     background: #a0d2eb;
