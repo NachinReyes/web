@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     height: 300px;
-    position:fixed;
+    position:relative;
     bottom: 0;
     top: 20px;
     background: #a0d2eb;
@@ -13,7 +13,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /*padding: 20px;*/
     color: #000;
     font-size: 14px;
 }
