@@ -132,6 +132,7 @@ figure{
     padding: 2px;
 }
 .acordeon__contenido{
+   display:inline-block;
     width: 95%;
     height: 0;
     
