@@ -150,7 +150,6 @@ figure{
 }
 
 .acordeon__contenido span{
-    display:inline-block;
     color: violet;
 }
 #acordeon__btn{
