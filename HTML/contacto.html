@@ -70,16 +70,16 @@
         <div class="contacto__titulo2">
           <h3>CONTACTA CON NOSOTROS</h3>
         </div>
-        <form class="contacto__body" action="" method="POST">
+        <form class="contacto__body" action="../PHP/mailContacto.php" method="POST">
           <div class="contacto__inputs">
             
-            <input type="text" id="nombre" placeholder="Tu Nombre" required>
-            <input type="email" id="email" placeholder="Tu Email" required="">
+            <input name="nombre" type="text" id="nombre" placeholder="Tu Nombre" required>
+            <input name="remitente" type="email" id="email" placeholder="Tu Email" required="">
             <br>
             <label for="asunto" class="asunto">MENSAJE:</label>
             
             
-            <textarea  name="asunto" id="asunto" rows="10" cols="55">Escribe aqui...</textarea>            
+            <textarea  name="mensajes" id="asunto" rows="10" cols="55">Escribe aqui...</textarea>            
           </div>
           <input class="enviar" type="submit" name="enviar" value="ENVIAR">
         </form>
