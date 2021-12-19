@@ -72,8 +72,7 @@ header label{
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, .5);
-    transition:0.7s;
-    transform: translateX(2000px);
+
     font-weight: bold;
 }
 
@@ -97,9 +96,7 @@ header label{
     transform: translateX(0);
 }
 
-#menu-bar:checked ~ .menu a{
-    transform: translateX(0);
-}
+
 
 
 @media (min-width:1024px) {
