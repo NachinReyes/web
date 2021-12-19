@@ -7,4 +7,4 @@
     mail($destino, "Contacto", $contenido);
     header("Location:..HTML/contacto.html");
 
- ?>
+ 
