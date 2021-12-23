@@ -18,8 +18,8 @@
     <meta name"robots" content="index, follow">
     <meta name="DateCreated" content="Sat, 13 November 2021 00:00:00 GMT+1">
     <meta name="Revisit-after" content="30 days">
-    <script src="../JS/scrollreveal.js"></script>
-    
+    <!--<script src="../JS/scrollreveal.js"></script>-->
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -59,24 +59,24 @@
     </header>
 <!--********************FONDO******************-->
     <main>
-        <section>
+      <section>
         <div class="questions__titulo">
           <h2>PREGUNTAS FRECUENTES</h2>
           <p>Respuesta a preguntas frecuentes para los visitantes en Praga.</p>
   
         </div>
       </section>
-        
-      <section>
-        <div class="questions__fondo"></div>
-      </section>
 
-      <section>
+      
+<!--*********************************************SECCION #1*************************************-->
+      <section class="mostrar" id="seccion1">
+
+        <div class="questions__fondo"></div>        
         <div class="questions__acordeon">
 
           <div class="questions__acordeon__item">
             <input id="questions__item0" name="titulo" type="checkbox">
-            <label for="questions__item0" class="questions__acordeon__titulo">Que es un free tour?<span class="icon-down-open"></span></label>
+            <label for="questions__item0" class="questions__acordeon__titulo">COMO FUNCIONA UN FREE TOUR?<span class="icon-down-open"></span></label>
             <p class="questions__acordeon__contenido">Básicamente un free tour (tour libre) es una visita guiada,
               que no tiene precio, realmente el precio lo pones tu.
                    Al final del recorrido, debes tomar en cuenta
@@ -86,7 +86,7 @@
 
           <div class="questions__acordeon__item">
             <input id="questions__item1" name="titulo" type="checkbox">
-            <label for="questions__item1" class="questions__acordeon__titulo">Donde es el punto de encuentro?<span class="icon-down-open"></span></label>
+            <label for="questions__item1" class="questions__acordeon__titulo">DONDE ESTA EL PUNTO DE ENCUENTRO?<span class="icon-down-open"></span></label>
             <p class="questions__acordeon__contenido">El 90% de nuestros recorridos empiezan en la esquina de la Plaza 
               de la Ciudad Vieja #5, (puedes ver mapa en nuestra sección de <a href="reservas.html">Reservas</a>) la visita a Český Krumlov, 
               Karlovy Vary se te indicará el puento de encuentro por email al momento de reservar.</p>
@@ -94,40 +94,48 @@
 
           <div class="questions__acordeon__item">
             <input id="questions__item2" name="titulo" type="checkbox">
-            <label for="questions__item2" class="questions__acordeon__titulo">Como puedo contactarlos?<span class="icon-down-open"></span></label>
+            <label for="questions__item2" class="questions__acordeon__titulo">QUIERO INFORMACION ADICIONAL<span class="icon-down-open"></span></label>
             <p class="questions__acordeon__contenido">En nuestra sección de <a href="contacto.html">Contactos</a> hemos dejado un formulario
               para que nos cuentes tus dudas adicionales, puedes escribir alli.</p>
           </div>
 
           <div class="questions__acordeon__item">
             <input id="questions__item3" name="titulo" type="checkbox">
-            <label for="questions__item3" class="questions__acordeon__titulo">Que horario tiene mi tour?<span class="icon-down-open"></span></label>
-            <p class="questions__acordeon__contenido">Cada tour tiene horarios diferentes, te recomendamos ver la sección
+            <label for="questions__item3" class="questions__acordeon__titulo">CUAL ES EL HORARIO DE LOS TOURS?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">Cada recorrido tiene horarios diferentes, te recomendamos ver la seccion
              de tours, busca el reccorrido de tu interés y "clickear" en la barra inferior HORARIO
             </p>  
           </div>
 
           <div class="questions__acordeon__item">
             <input id="questions__item4" name="titulo" type="checkbox">
-            <label for="questions__item4" class="questions__acordeon__titulo">Quiero hacer un tour privado?<span class="icon-down-open"></span></label>
+            <label for="questions__item4" class="questions__acordeon__titulo">PUEDO HACER UN TOUR PRIVADO?<span class="icon-down-open"></span></label>
             <p class="questions__acordeon__contenido">Claro que si, ponte en contacto con nosotros al pie de esta la página
               encontrarás nuestro email y teléfono, escribe por WhatsApp, envia un correo o ve a la sección de <a href="contacto.html">Contactos</a></p>  
           </div>
 
           <div class="questions__acordeon__item">
             <input id="questions__item5" name="titulo" type="checkbox">
-            <label for="questions__item5" class="questions__acordeon__titulo">Como es el transporte?<span class="icon-down-open"></span></label>
+            <label for="questions__item5" class="questions__acordeon__titulo">TRANSPORTE EN PRAGA<span class="icon-down-open"></span></label>
             <p class="questions__acordeon__contenido">Praga cuenta con una red de transporte excelente, te invitamos a leer en nuestro blog
-              un artículo muy completo sobre el tema que solucionará tods tus dudas :<a href="blog.html#transporte"> Ir al Blog</a></p>  
+              una entrada muy extensa que solucionará toda la incógnita :<a href="blog.html#transporte">Ir al Blog</a></p>  
           </div>
 
           <div class="questions__acordeon__item">
             <input id="questions__item6" name="titulo" type="checkbox">
-            <label for="questions__item6" class="questions__acordeon__titulo">Que debo llevar al tour?<span class="icon-down-open"></span></label>
-            <p class="questions__acordeon__contenido">"Zapatos cómodos" siempre lo recomendamos, y desde Octubre a Abril super-abrigados es bueno revisar 
-              el clima antes de viajar y preparar tu maleta acorde al clima. Los veranos Praguenses son muy cálidos.
-            </a></p>  
+            <label for="questions__item6" class="questions__acordeon__titulo">Cuantos días debo Viajar a Praga?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">Pregunta del millón, recomendamos viajar 3 ó 4 días, Praga la recorres en 2 días, pero lamentarás no 
+              no hacer una visita a Karlovy Vary o Česky Krumlov</p>  
           </div>
+
+          <div class="questions__acordeon__item">
+            <input id="questions__item7" name="titulo" type="checkbox">
+            <label for="questions__item7" class="questions__acordeon__titulo">QUE DEBO LLEVAR AL TOUR?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">"Zapatos cómodos" siempre lo recomendamos, y en invierno (Diciembre a Marzo) super-habrigados es bueno revisar 
+              el clima antes de viajar y preparar tu maleta acorde al clima. En verano hace mucho calor, así que no necesitarás habrigo.
+            </a></p>  
+
+            
 
             
         </div>
@@ -139,10 +147,91 @@
       </section>
       
 
+      <!--*******************SECCION #2***************************************************-->
+      <section class="ocultar" id="seccion2">
 
+        <div class="questions__fondo"></div>
 
+        <div class="questions__acordeon">
 
-  
+          <div class="questions__acordeon__item">
+            <input id="questions__item8" name="titulo" type="checkbox">
+            <label for="questions__item8" class="questions__acordeon__titulo">pregunta 8?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">Básicamente un free tour (tour libre) es una visita guiada,
+              que no tiene precio, realmente el precio lo pones tu.
+                   Al final del recorrido, debes tomar en cuenta
+              el tiempo del guía, su esfuerzo, tu grado de satisfacción, etc.
+            </p>
+          </div>  
+
+          <div class="questions__acordeon__item">
+            <input id="questions__item9" name="titulo" type="checkbox">
+            <label for="questions__item9" class="questions__acordeon__titulo">pregunta 9?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">El 90% de nuestros recorridos empiezan en la esquina de la Plaza 
+              de la Ciudad Vieja #5, (puedes ver mapa en nuestra sección de <a href="reservas.html">Reservas</a>) la visita a Český Krumlov, 
+              Karlovy Vary se te indicará el puento de encuentro por email al momento de reservar.</p>
+          </div>
+
+          <div class="questions__acordeon__item">
+            <input id="questions__item10" name="titulo" type="checkbox">
+            <label for="questions__item10" class="questions__acordeon__titulo">pregunta 10?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">En nuestra sección de <a href="contacto.html">Contactos</a> hemos dejado un formulario
+              para que nos cuentes tus dudas adicionales, puedes escribir alli.</p>
+          </div>
+
+          <div class="questions__acordeon__item">
+            <input id="questions__item11" name="titulo" type="checkbox">
+            <label for="questions__item11" class="questions__acordeon__titulo">Pregunta 11?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">Cada recorrido tiene horarios diferentes, te recomendamos ver la seccion
+             de tours, busca el reccorrido de tu interés y "clickear" en la barra inferior HORARIO
+            </p>  
+          </div>
+
+          <div class="questions__acordeon__item">
+            <input id="questions__item12" name="titulo" type="checkbox">
+            <label for="questions__item12" class="questions__acordeon__titulo">Pregunta 11?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">Claro que si, ponte en contacto con nosotros al pie de esta la página
+              encontrarás nuestro email y teléfono, escribe por WhatsApp, envia un correo o ve a la sección de <a href="contacto.html">Contactos</a></p>  
+          </div>
+
+          <div class="questions__acordeon__item">
+            <input id="questions__item13" name="titulo" type="checkbox">
+            <label for="questions__item13" class="questions__acordeon__titulo">Pregunta 11?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">Praga cuenta con una red de transporte excelente, te invitamos a leer en nuestro blog
+              una entrada muy extensa que solucionará toda la incógnita :<a href="blog.html#transporte">Ir al Blog</a></p>  
+          </div>
+
+          <div class="questions__acordeon__item">
+            <input id="questions__item14" name="titulo" type="checkbox">
+            <label for="questions__item14" class="questions__acordeon__titulo">Pregunta 12?<span class="icon-down-open"></span></label>
+            <p class="questions__acordeon__contenido">Pregunta del millón, recomendamos viajar 3 ó 4 días, Praga la recorres en 2 días, pero lamentarás no 
+              no hacer una visita a Karlovy Vary o Česky Krumlov</p>  
+          </div>
+
+            <div class="questions__acordeon__item">
+              <input id="questions__item15" name="titulo" type="checkbox">
+              <label for="questions__item15" class="questions__acordeon__titulo">Cual es el o los numeros de Emergencia?<span class="icon-down-open"></span></label>
+              <p class="questions__acordeon__contenido">El número de Europeo de Emergencia, para todo percance es el 112, como plus aqui hay otros:
+                158 - Policia, 150 - Bomberos y 155 - Servicio de Emergencias Médicas</p>
+          </div>
+
+            
+        </div>
+          
+          
+        
+      </div>
+
+      </section>
+
+      <div class="pagination">
+        <ul>
+          <h5>Páginas</h5>
+          <li id="pagina1">1</li>
+          <li id="pagina2">2</li>
+          
+        </ul>
+      </div>
 <!--************************AVISO DE COOKIES**********************-->
 
       <div class="aviso-cookies w-50 p-3" id="aviso-cookies">
@@ -188,13 +277,11 @@
          
           <div class="contactos">
             <h4>CONTACTOS</h4>
-            <a class="icon-at-1" href="contacto.html" ><p>info@tourlibre.com</p></a>
+            <a class="icon-at-1" href="contacto.html" ><p>&nbsp;&nbsp;   info@tourlibre.com</p></a>
             
-            <a class="icon-phone" href="" ><p>+420-773 634 041</p></a>
+            <p class="icon-phone" >&nbsp;&nbsp;+420 775 462 239</p>
             
-            <a class="icon-location" href="" ><p>Staromětske Náměstí 5, Praha 1, Česká Republika</p></a>
-            
-            
+            <p class="icon-location" >&nbsp;  Staromětske Náměstí 5, Praha 1, Česká Republika</p>
 
             
           </div>
@@ -209,6 +296,7 @@
 
     
     <script src="../JS/menu.js"></script>
-    <script src="../JS/index.js"></script>
+    <!--<script src="../JS/index.js"></script>-->
+    <script src="../JS/faq.js"></script>
 </body>
 </html>
