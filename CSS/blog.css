@@ -118,7 +118,7 @@
 
 .blog__big{
     display: none;
-    margin-top:50px
+    margin-top:25px
 }
 
 .blog__article__big{
@@ -396,8 +396,8 @@
 
     /*************articulos grandes************/
 
-    #blog__big{
-        margin-top:225px;
+    ,blog__big{
+        margin-top:-25px;
     }
     
     .blog__article__big{
