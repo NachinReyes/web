@@ -104,7 +104,6 @@ background: radial-gradient(circle, rgba(152,152,236,0.7122199221485469) 0%, rgb
 .questions__acordeon__item input:checked ~ .questions__acordeon__titulo span{
     transform: rotate(-180deg);
     transition: .5s;
-    color:rgb(27, 106, 209);
 }
 
 .pagination{
