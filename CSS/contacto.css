@@ -13,13 +13,12 @@
     margin-bottom:10px;
 }
 
-
 .contacto__titulo p{
     font-weight: 700;
     margin-bottom:20px;
 }
-.contacto{
 
+.contacto{
     width:90%;
     height: 400px;
     margin-top:90px;
@@ -56,8 +55,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .contacto__inputs input{
@@ -69,9 +67,9 @@
     margin-bottom: 15px;
     border-radius: 5px;
     border: none;
-    background:rgba(255, 255, 255, .6);
-    
+    background:rgba(255, 255, 255, .6); 
 }
+
 .contacto__inputs input:hover{
     border:1px solid rgb(207, 83, 211);
 }
@@ -80,9 +78,8 @@
     width:100%;
     text-align: center;
     position: relative;
-  
-
 }
+
 label{
     display: block;
     color: #000;
@@ -90,6 +87,7 @@ label{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 textarea{
     width: 90%;
     height:75px;
@@ -103,6 +101,7 @@ textarea{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 input submit{
     height:40px;
     border-radius: 5px;
@@ -123,16 +122,15 @@ input submit{
         text-align: center;
         top: -600px;
     }
+    
     .contacto__inputs{
         
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
-        
     }
+    
     .contacto__inputs inputs{
         width: 50%;
-
     }
-
 }
