@@ -14,7 +14,6 @@
     margin-bottom:10px;
 }
 
-
 .blog__titulo p{
     font-weight: 700;
     margin-bottom:20px;
@@ -32,8 +31,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
 }
 
 .blog__articulos{
@@ -47,7 +45,6 @@
 }
 
 .article{
-    
     margin-top:10px;
     margin-bottom:10px;
     width: 80%;
@@ -55,14 +52,14 @@
     background: #e5eaf5;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 1px 1px 3px rgb(177, 175, 175);
-    
+    box-shadow: 1px 1px 3px rgb(177, 175, 175);   
 }
 
 .ocultar{
     display:none;
     transition:.5s;
 }
+
 .mostrar{
     display: block;
     transition:.5s;
@@ -73,35 +70,28 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 .article img{
-    
     width: 100%;
     height: 250px;
     margin-left: auto;
     margin-right: auto;
-
-    
 }
 
 .article img:hover{
    filter:brightness(70%);
     /*z-index: 100;*/
     cursor: pointer;
-
 }
 
 .article h4{
     margin-top:0;
     margin-bottom:0;
     text-align: center;
-   
-  
 }
 
 .blog__parrafo{
-    
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -109,14 +99,11 @@
     color: rgb(131, 128, 125);
     font-weight: 600;
     font-size:14px;
-
 }
 
 .blog__pie__parrafo{
-    
     margin-top:-110px;
     color:#fff; 
-    
 }
 
 
@@ -128,12 +115,13 @@
     height: 100%;
     box-sizing: border-box;
 }
+
 .blog__big{
     display: none;
     margin-top:50px
 }
+
 .blog__article__big{
-    
     margin-top:10px;
     margin-bottom:20px;
     width:100%;
@@ -142,9 +130,7 @@
     justify-content:center;
     margin-left: auto;
     margin-right: auto;
-   
 }
-
 
 .article__big{
     width:100%;
@@ -152,7 +138,6 @@
     background: #fff;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .article__big picture{
@@ -168,8 +153,6 @@
     height: 280px;
 }
 
-
-
 .transporte2{
     display: none;
 }
@@ -177,6 +160,7 @@
 .article__big__texto{
     margin-top:20px;
 }
+
 .article__big__texto p{
     width:90%;
     padding: 10px;
@@ -195,6 +179,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 45px;
 }
+
 .article__big__texto ul{
     width:90%;
     padding: 10px;
@@ -210,24 +195,21 @@
     width: 100%;
     height: 40px;
     margin-left:auto;
-
-
 }
+
 .blog__volver:hover{
     color: #000;
 }
-.blog__volver {
-  
 
+.blog__volver {
     top:250px;
     left: auto;
     right: auto;
     color:red;
     display: inline-block;
     cursor: pointer;
-width: 150px;
-font-size:20px;
-    
+    width: 150px;
+    font-size:20px;
 }
 
 .icon-angle-double-up{
@@ -235,10 +217,9 @@ font-size:20px;
     margin-top:0;
     color: red;
     cursor: pointer;
-    display:inline-block;
-    
-    
+    display:inline-block; 
 }
+
 .article__big__titulo{
     width: 70%;
     color: rgb(7, 7, 7);
@@ -250,29 +231,23 @@ font-size:20px;
     font-size:20px;
     font-weight:bold;
     z-index: 105;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
-
 
 .blog__article_sidebar{
     width:60%;
     height:auto;
     top:10px;
-    margin-right: 10px;
-    
+    margin-right: 10px;    
     margin-left: auto;
     margin-right: auto;
     margin-bottom:20px;
-
-    
 }
 
 .blog__article_sidebar h3{
     text-align:center;
     padding: 15px;
 }
-
 
 .blog__sidebar__tema{
     width: 100%;
@@ -281,6 +256,7 @@ font-size:20px;
     border: 20px solid #fff;
     background: rgb(243, 238, 238);
 }
+
 .blog__sidebar__tema img{
     border-radius: 6px;
 }
@@ -289,6 +265,7 @@ font-size:20px;
     transform: scale(1.01);
     box-shadow: 1px 2px 3px black; 
 }
+
 .transBilletes {
     width: 90%;
     height: 250px;
@@ -302,7 +279,6 @@ font-size:20px;
     font-weight:900;
     justify-content: justify;
     line-height: 1.5rem;
-
 }
 
 .transBilletes img{
@@ -312,6 +288,7 @@ font-size:20px;
     margin-right: 10px;
     margin-left:10px
 }
+
 .blog__sidebar__tema a{
     color: #000;
     display:block;
@@ -350,7 +327,6 @@ font-size:20px;
         margin-bottom: 40px;
         }
     
-
     .article{
         position: relative;
         margin-top:10px;
@@ -366,7 +342,6 @@ font-size:20px;
     .article:active{
         box-shadow: 0 0 0;
         transform: scale(.99);
-    
     }
 
     .transBilletes{
@@ -387,8 +362,6 @@ font-size:20px;
         border-radius: 5px; 
         display: block;   
     }
-
-    
 
     .blog__grid{
         margin-top:50px;
@@ -411,6 +384,7 @@ font-size:20px;
         height:400px;
         position: relative;    
     }
+    
     .article img{
         width: 100%;
         height: 250px;
@@ -445,6 +419,7 @@ font-size:20px;
             grid-row-start: 1;
             grid-row-end: 3;
     }
+    
     .article__big__titulo{
         margin-left: 65px;
         font-size:25px;
