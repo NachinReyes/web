@@ -1,19 +1,15 @@
 main{
     max-width: 100%;
-    
 }
+
 .container-slider{
     width: 100%;
     max-width: 100%;
     top: 0;
-    
     position: relative;
     margin: auto;
-    overflow: hidden;
-    
-    
+    overflow: hidden; 
 }
-
 
 .slider{
     display:flex;
@@ -24,14 +20,10 @@ main{
 }
 
 .slider{
-   
     animation-name: opacidad;
     animation-duration: 8s;
    animation-iteration-count: infinite;
-    
 }
-
-
 
 @keyframes opacidad {
  from{   
@@ -39,24 +31,18 @@ main{
     transition:1s;
  }
  to{ 
-    
-     transform:scale(1.3);
-     
- }
+     transform:scale(1.3);}
   }
 
 .slider-section{
     width: 100%;
-
 }
-
 
 .slider-image{
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
 
 .slider-btn{
@@ -72,13 +58,11 @@ main{
     border-radius: 50%;
     cursor: pointer;
     display:none;
-
 } 
 
 .slider-btn:hover{
     background: #fff;
 }
-
 
 .slider-btn-left{
     left: 10px;
@@ -89,17 +73,13 @@ main{
 }
 
 @media (min-width: 1024px){
-    .container-slider{
-        
+    .container-slider{        
         height: 600px;
-        
     }
 
     .slider-btn{
         width: 40px;
         height: 40px;
         font-size: 30px;
-       
     } 
-
 }
