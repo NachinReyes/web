@@ -102,8 +102,7 @@ background: radial-gradient(circle, rgba(152,152,236,0.7122199221485469) 0%, rgb
 .questions__acordeon__item input:checked ~ .questions__acordeon__titulo span{
     transform: rotate(-180deg);
     transition: .5s;
-    filter:blur(100px);
-    
+    color:rgb(27, 106, 209);
 }
 
 .pagination{
@@ -118,13 +117,13 @@ background: radial-gradient(circle, rgba(152,152,236,0.7122199221485469) 0%, rgb
     text-align: center;
     margin-bottom:5px;
 }
+
 .pagination ul{
     text-align: center;
 }
 
 
 .pagination li{
-    
     display:inline-block;
     text-align:center;
     margin-right: 10px;
@@ -136,7 +135,6 @@ background: radial-gradient(circle, rgba(152,152,236,0.7122199221485469) 0%, rgb
     background: rgb(91, 118, 206);
     color:#fff;
     cursor:pointer;
-
 }
 
 
@@ -145,15 +143,14 @@ background: radial-gradient(circle, rgba(152,152,236,0.7122199221485469) 0%, rgb
         width: 80%;
         flex-direction: row;
         flex-wrap: wrap;
-        
     }
 
     .questions__acordeon__item {
         width: 90%;
         display: flex;
         justify-content: center;
-        
     }
+    
     .questions__acordeon label{
         display: block;
         padding: 15px;
@@ -165,9 +162,5 @@ background: radial-gradient(circle, rgba(152,152,236,0.7122199221485469) 0%, rgb
         margin-left:20px;
         background-color: var(--color_principal);
         cursor: pointer;
-        
     }
-
-    
-    
 }
