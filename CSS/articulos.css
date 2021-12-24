@@ -6,7 +6,6 @@
     margin: 20px;
 }
 
-
 #articulos .contenedor__articulos{
     width:90%;
     display: flex;
@@ -25,7 +24,6 @@
     margin-left:auto;
     margin-right:auto;
 }
-
 
 .card img{
     width: 100%;
@@ -47,8 +45,7 @@
     position:absolute;
     color: rgb(250, 249, 250);
     padding: 5px;
-    border-radius: 3px;
-    
+    border-radius: 3px;    
 }
 
 figure .cerveza{
@@ -92,7 +89,6 @@ figure .cerveza{
 }
 }
 
-
 @media (min-width:1024px) {
     
     #articulos .contenedor__articulos{
@@ -103,6 +99,7 @@ figure .cerveza{
         width: 30%;
         height:440px;
     }
+    
     .card img{
         box-shadow: none;
         width: 90%;
@@ -115,16 +112,17 @@ figure .cerveza{
     card:hover{
         cursor:pointer;
     }
+    
     #articulos h3{
         letter-spacing: .5rem;
         font-size: 25px;        
     }
+    
     .contenido h2{
         margin-top:0;
         font-size: 20px;
     }
 
-    
     figure .cerveza{
         width:80%;
         height: 280px;
