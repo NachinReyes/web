@@ -18,9 +18,10 @@
     font-weight: 700;
     margin-bottom:20px;
 }
+
 .mapa{
     width: 100%;
-    margin-top: 0;
+    margin-top: 70px;
 
 }
 
@@ -29,7 +30,6 @@
     text-align:center;
     font-size:13px;
     font-weight:bold;
-    margin-top:70px;
     margin-left: auto;
     margin-right: auto;
     text-shadow: 3px 1px 3px grey;
@@ -44,13 +44,68 @@
 
 .mapa__display iframe{
     width: 100%;
-    height: 350px;
+    height: 250px;
     margin-right:auto;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius 5px;
     box-shadow: 3px 3px 10px black;
+
 }
+
+.reserva__acordeon{
+    margin-top:20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.reserva__acordeon input{
+    display:none;
+}
+.reserva__acordeon label{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    margin-top: 0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    text-align: left;
+    background-color: var(--color_principal);
+    cursor: pointer;
+    
+}
+
+.reserva__acord__contenido{
+    width: 100%;
+    height: 0;
+    padding: 0;
+    background: #e5eaf5;
+    border-radius: 6px;
+    overflow: hidden;
+    transition:all .5s;
+    /*display: inline-block;*/
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: bold;
+    
+    
+    
+}
+
+.reserva__acordeon input:checked ~ .reserva__acord__contenido{
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    transition: .5s;
+    margin-bottom:15px;
+    margin-left:20 px;
+    padding: 10px;
+}
+
 
 .formulario{
     width: 90%;
@@ -60,7 +115,6 @@
 }
 
 .form__titulo h3{
-    margin-top:20px;
     width: 100%;
     margin-bottom: 10px;
     font-size:16px;
@@ -94,24 +148,7 @@
     cursor: pointer;
 }
 
-.form__inputs select{
-    width: 95%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7px;
-    height: 40px;
-    border: none;
-    border-radius:5px;
-    padding: 5px 10px;
-    cursor: pointer;
-}
 
-.form__inputs select:hover, input:hover{
-    border: 1px solid rgb(207, 83, 211);
-    
-    
-}
 
 .form__body input{
     margin-top:10px;
@@ -172,6 +209,10 @@
         margin-right:auto;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .reserva__acordeon{
+        width:50%;
     }
 
     .form__titulo h3{
