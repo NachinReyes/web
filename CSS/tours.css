@@ -28,7 +28,7 @@
 
 .info{
     margin-top:10px;
-    padding: 15px;
+    padding:15px;
     margin-bottom: 10px;
 }
 
@@ -36,107 +36,127 @@
     font-size: 16px;
 }
 
+
+.contenedor__tours{
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
 .tours{
-    flex-direction: row;
     width: 100%;
     height: auto;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    margin-bottom: 10px;
-
-}
-.ftcv{
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: auto;
+    margin-bottom: 10px; 
+    margin-left:auto;
     margin-right: auto;
+    
 }
 
-.ftcv h3{
-    width: 100%;
-    justify-content: center;
+
+
+.tours h2{
+    width: 90%;
+    height: 50px;
     text-align: center;
-    /*flex-direction: row;*/
-    margin-bottom: 5px;
-
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
 }
-figure{
-    display: flex;
-    justify-content: center;
+
+.imagen__tours{
+    width: 90%;
+    height:auto;
+    display:flex;
     flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-
-.ftcv img{
+.imagen__tours img{
+    width: 280px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    height: 290px;
-    z-index: 99;
+    object-fit: cover;
+
 }
 
-/*.imagen__tours{
-    width: 90%;
-}*/
 .imagen__tours p{
-    width: 100%;
-    padding: 40px;
-    text-align: center;
-    color: rgb(252, 249, 249);
-    z-index: 99;
-    top: -130px;
-    position: relative;
-    font-size: 13px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px; 
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: .09em;
 }
 
+.form__tours__titulo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.form__tours__titulo a{
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    font-size:20px
+}
+
 .acordeon{
-    width: 90%;
+    width: 80%;
     height: auto;
-    margin-top: -140px;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
-    /*background-color:white;*/
     border-radius: 5px;
-    display: flex;
+    margin-top:20px;
+    bottom: 20px;
     justify-content: center;
     position: relative;
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .acordeon input{
     display: none;
 }
+
 .acordeon label{
     display: block;
     padding: 5px;
-    width: 110%;
-    height: 30px;
-    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
     border-radius: 3px;
-    margin-bottom: 0px;
-    text-align: center;
+    margin-bottom: 10px;
     background-color: var(--color_principal);
     cursor: pointer;
-    
-    
 }
+
 .acordeon__titulo{
-    display: block;
-    padding: 2px;
+    display: inline-block;
+        
+
+    color: #fff;
 }
 .acordeon__contenido{
-   display:inline-block;
-    width: 95%;
+    width: 90%;
     height: 0;
     
-    transform: translateX(-2000px);
+   /* transform: translateX(20px);*/
     overflow: hidden;
     transition:all .5s;
 }
@@ -150,12 +170,21 @@ figure{
 }
 
 .acordeon__contenido span{
-    color: violet;
+    color: rgb(82, 12, 82);
 }
-#acordeon__btn{
-    background: violet;
 
+.acordeon__titulo span{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    width:21px;
+    height:21px;
+    text-align: center;
+    transition:.7s;
+    font-weight: 800;
+    color: #fff;
 }
+
 .acordeon__item input:checked ~ .acordeon__contenido{
     height: auto;
     transform: translateX(20px);
@@ -163,80 +192,174 @@ figure{
     margin-bottom: 10px;
     margin-right: 20px;
     transition: all .5s;
+    margin-bottom:15px;
 }
 
-.contenido li{
-    text-align: left;
-    left: 40px;
+.acordeon__item input:checked ~ .acordeon__titulo span{
+    transform: rotate(-180deg);
+    transition: .5s;
+    
+}
+*************************************formulario*************************************/
+
+.formulario__tours{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+    
 }
 
 
+/*.form__tours__titulo{
+    width: 80%;
+    height: 40px;
+    background: rgb(51, 107, 228);
+    
+}*/
+.form__tours__titulo{
+    text-align: center;
+    margin-top: 20px;
+   width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    background: rgb(51, 107, 228);
+    border-radius: 5px;
+    color:#fff;
+    padding:5px;
+    cursor: pointer;
+    box-shadow:1px 1px 3px #000;
+}
+
+.form__tours__titulo h3:active{
+    transform:scale(.99);
+    box-shadow:none;
+}
+
+.form__tours__body{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(189, 186, 186);
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    
+}
+
+.form__tours__inputs input{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    height: 40px;
+    border: none;
+    border-radius:5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.form__tours__inputs select{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    height: 40px;
+    border: none;
+    border-radius:5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.form__tours__inputs select:hover, input:hover{
+    border: 1px solid rgb(207, 83, 211);
+    
+    
+}
+
+.form__tours__body input{
+    margin-top:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border: none;
+  
+    
+}
+
+   
+.enviar{
+    height:40px;
+    padding: 10px 70px;
+    background: rgb(192, 94, 238);
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .2em;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+/*******************************RESPONSIVE***********************/
 @media (min-width:1024px){
-    .tours{
-        flex-direction: row;
-        width: 100%;
+    .contenedor__tours{
+        
+        width: 90%;
         height: auto;
-        display: flex;
-        position: relative;
-        justify-content: center;
-        margin-bottom: 10px;
+    
+        
+    }
+    .tours{
+        width: 70%;
+        height: auto;
+        
+       
+        
+        margin-bottom: 50px;
     
     }
-    .ftcv{
-        width: 100%;
+    .tour__item{
+        width: 90%;
         height: auto;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+       
+        
+        
     }
     
     .ftcv h3{
         width: 100%;
-        justify-content: center;
+        margin-top: 10px;
+        font-size:25px;
         text-align: center;
-        /*flex-direction: row;*/
-        margin-bottom: 5px;
-    
-    }
-    figure{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .ftcv img{
-        width: 60%;
-    
-        height: 300px;
-        justify-content: center;
-    }
+
     
     
-    .imagen__tours p{
-        display: block;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+    
     }
-     .acordeon { 
-        text-align: center;
-        color: #fff;
-        z-index: 99;
-        top: 0;
-        margin-top: -100px;
-        font-size: 15px;
-        
-        
+    .imagen__tours img{
+        width: 100%;
+        height: 450px;
     }
+   
+    
+
+     
     
     .acordeon{
-        width: 50%;
-        margin-top: -100px;
+        width: 70%;
+        margin-top: 30px;
+        margin: 20px;
         margin-left: auto;
         margin-right: auto;
-       
+       font-size: 15px;
+        
     }
     
     .acordeon__titulo{
@@ -246,24 +369,18 @@ figure{
     
     
     .acordeon__contenido {
-        margin-right: 30px;
+        
         font-size: 15px;
         
     }
     
     .acordeon__item{
-        width: 70%;
-        margin-left: auto;
-        margin-right:auto;
+        width: 100%;
+        
     }
     
     
-    .contenido li{
-        text-align: left;
-        left: 40px;
-    }
     
-
     
     
 }
