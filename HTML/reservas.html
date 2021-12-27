@@ -19,7 +19,7 @@
     <meta name="DateCreated" content="Sat, 13 November 2021 00:00:00 GMT+1">
     <meta name="Revisit-after" content="30 days">
     <script src="../JS/scrollreveal.js"></script>
-    
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -38,7 +38,7 @@
 
   <!--*********************MENU****************-->
     <header>
-      <div class="contenedor">
+      <div class="Tour__contenedor">
         
         <img class="logo" src="../IMAGENES/logo2.png" alt="logo tourlibre.com" id="logo">
         <input type="checkbox" id="menu-bar">
@@ -59,6 +59,7 @@
     </header>
 <!--********************MAPA******************-->
     <main>
+      <main>
         <section>
           <div class="reservas__titulo">
             <h2>RESERVAS</h2>
@@ -66,7 +67,7 @@
     
           </div>
         </section>
-        
+
       <section class="mapa">
         <div class="mapa__titulo">
           <h2>ESTAMOS EN PLAZA DE LA CIUDAD VIEJA #5 (Frente a Joyería de Cartier)</h2>
@@ -77,53 +78,78 @@
       </section>
       
 <!--*********************FORMULARIO*************************-->
+      <div class="reserva__acordeon">
+        
+        
+          <div class="acordeon__item">
+            <input id="horaRes" name="titulo" type="checkbox">
+            <label for="horaRes" class="acordeon__titulo">HORARIO DE LOS TOURS<span class="icon-down-open"></span></label>
+            <ul class="reserva__acord__contenido">
+              <li>Free tour Ciudad Vieja: 10, 11, 12, 15 horas todos los días.</li>
+              <li>Free tour ciudad Nueva: 10:30 y 15:00 horas todos los días.</li>
+              <li>Tour del Castillo: 11 y 14:30 todos los días.</li>
+              <li>Tour de la Cerveza: 19:00 horas todos los días.</li>
+              <li>Sesion fotográfica <a href="contacto.html">Reserva aqui:</a> </li>
+              <li>Free tour de las leyendas: 19:00 todos los días.</li>
+              <li>Visita a Karlovy Vary: 9:00 todos los días reserva 24 horas antes</li>
+              <li>Visita a Česky Krumlov: 9:00 todos los días reserva 24 horas antes</li>
+              <li>visita al ghetto de Terezin: 10:00 Miercoles, Viernes y Domingo</li>
+              <li>Visita a Kutna Hora: 10:00 Martes, Jueves y Sabado </li>
+            </ul>
+              
+            </p>
+          
+        </div>
+      </div>
+
+
       <SEction class="formulario">
         <div class="form__titulo">
           <h3>RESERVA AQUI!</h3>
         </div>
         <form class="form__body" action="" method="POST">
           <div class="form__inputs">
-            <select name="form__tours" id="">
+            <input list="form__tours" placeholder="Escoge un Tour"></input>
+            <datalist id="form__tours">
             <option disabled value="dis">Escoge un Tour</option>
-              <option value="ftcv" id="ftcv">Free Tour Ciudad Vieja</option>
-              <option value="ftcn">Free Tour Ciudad Nueva</option>
-              <option value="tcas">Tour del Castillo</option>
-              <option value="tcer">Tour de la Cerveza</option>
-              <option value="tfot">Tour Fotográfico</option>
-              <option value="tleg">Tour de las Leyendas</option>
-              <option value="karl">Visita a Karlovy Vary</option>
-              <option value="cesk">Visita a Český Krumlov</option>
-              <option value="tere">Visita al Ghetto de Terezín</option>
-              <option value="kuth">Visita a Kutna Hora</option>
-            </select>
-            <div class="option__ftcv">
-              <input type="button" value="10 AM">
-              <input type="button" value="11 AM">
-              <input type="button" value="12 PM">
-              <input type="button" value="14 PM">
-              <input type="button" value="15 PM">
-              <input type="button" value="18 AM">
-            </div>
+              <option value="Free Tour Ciudad Vieja" id="ftcv"></option>
+              <option value="Free Tour Ciudad Nueva"></option>
+              <option value="Tour del Castillo"></option>
+              <option value="Tour de la Cerveza"></option>
+              <option value="Sesión Fotográfica"></option>
+              <option value="Tour de las Leyendas"></option>
+              <option value="Visita a Karlovy Vary"></option>
+              <option value="Visita Česky Krumlov"></option>
+              <option value="Visita Guetto de Terezin"></option>
+              <option value="Visita Kutna Hora"></option>
+              <option value="Tour Privado"></option>
+            </datalist>
+           
             <input type="text" id="nombre" placeholder="Tu Nombre" required>
             <input type="email" id="email" placeholder="Tu Email" required>
             <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
             <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
-            <select name="" id="" >
-              <option value="option1">09 AM</option>
-              <option value="option1">10 AM</option>
-              <option value="option1">11 AM</option>
-              <option value="option1">12 PM</option>
-              <option value="option1">01 PM</option>
-              <option value="option1">02 PM</option>
-              <option value="option1">02:30 PM</option>
-              <option value="option1">03 PM</option>
-              <option value="option1">06 PM</option>
-              <option value="option1">07 PM</option>
-            </select>
+            <input list="horas" name="" id="" placeholder="Hora del Tour" required >
+            <datalist id="horas">
+              <option value="9:00"></option>
+              <option value="10:00"></option>
+              <option value="10:30"></option>
+              <option value="11:00"></option>
+              <option value="12:00"></option>
+              <option value="13:00"></option>
+              <option value="14:00"></option>
+              <option value="15:00"></option>
+              <option value="18:00"></option>
+              <option value="19:00"></option>
+            </datalist>
             <input type="number" id="cantPers" min="1" max="10" placeholder="Cantidad de Personas">            
           </div>
+
+          <input class="terminos__priv" type="checkbox" id=""name="">Acepto los terminos de privacidad.</input>
           <input class="enviar" type="submit" name="enviar" value="ENVIAR">
         </form>
+
+
       </SEction>
 
 
@@ -174,13 +200,11 @@
          
           <div class="contactos">
             <h4>CONTACTOS</h4>
-            <a class="icon-at-1" href="contacto.html" ><p>info@tourlibre.com</p></a>
+            <a class="icon-at-1" href="contacto.html" ><p>&nbsp;&nbsp;   info@tourlibre.com</p></a>
             
-            <p class="icon-phone">+420-773 634 041</p>
+            <p class="icon-phone" >&nbsp;&nbsp;+420 775 462 239</p>
             
-            <p class="icon-location">Staromětske Náměstí 5, Praha 1, Česká Republika</p>
-            
-            
+            <p class="icon-location" >&nbsp;  Staromětske Náměstí 5, Praha 1, Česká Republika</p>
 
             
           </div>
