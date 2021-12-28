@@ -20,4 +20,5 @@ if(_dia < 10){
 let fecha_minima = anio + '-' + mes + '-' + dia; // Nueva variable
 
 
-document.getElementById("fechaReserva").setAttribute('min', fecha_minima);
+var fechaMin = document.querySelectorAll(".fechaReserva"); 
+fechaMin.forEach(element => element.setAttribute('min', fecha_minima));
