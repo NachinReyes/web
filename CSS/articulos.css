@@ -30,6 +30,7 @@
     height:280px;
     margin-lef:auto;
     margin-right:auto;
+    cursor:pointer;
 }
 
 .card img:hover{
