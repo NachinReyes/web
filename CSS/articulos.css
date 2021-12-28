@@ -79,6 +79,25 @@ figure .cerveza{
 .contenido p{
     display:inline;
 }
+/*********************SECCION GRANDE TOURS******************/
+.nomostrar{
+    display: none;
+}
+
+.mostrarT{
+    width: 70%;
+    height: 50px;
+    margin-top:20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.61);
+    text-align: center;
+    padding:15px;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius:6px;
+}
 
 
 @media(min-width:550px){
