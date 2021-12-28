@@ -14,14 +14,11 @@
     <meta name="REPLY-TO" content="info@tourlibre.com>
     <LINK REV="made" href="mailto:info@tourlibre.com">
     <meta name="description" content="Transformamos tu visita a Praga en una experiencia inolvidable, nuestros free tours transmiten la pasión de vivir aqui.">
-    <meta name"keywords" content="Free tour Praga, tours praga, guías en Praga, Praga, turismo en Praga, lugares de interés en Praga>
+    <meta name"keywords" content="Free tour Praga, tours praga, guías en Praga, Praga, turismo en Praga, lugares de interés en Praga, sesion fotográfica en Praga>
     <meta name"robots" content="index, follow">
     <meta name="DateCreated" content="Sat, 13 November 2021 00:00:00 GMT+1">
     <meta name="Revisit-after" content="30 days">
-    <!--<script src="JS/scrollreveal.js"></script>-->
     
-    
-
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -63,7 +60,7 @@
     <div id="menu__area"></div>
 <!--********************CARRUSEL******************-->
    <main>
-       <a name="arriba"></a>
+    <a name="arriba"></a>
       <section class="container-slider">
         <div class="slider" id="slider">
           <div class="slider-section"> 
@@ -96,7 +93,6 @@
 
       
 
-
       <!--****************BOTON DE RESERVA***************-->
 
       <section class="contenedor-botones">
@@ -104,10 +100,10 @@
           <button  class = "boton cuatro " > <span >RESERVAR TOUR </span> </button>
         </div>
       </section>
-        
-      <br>
+      
+     <br>
 <!--****************************SECCION DE TOURS***************-->
- <section id="articulos">
+  <section id="articulos">
     <h3>CONOCE NUESTROS TOURS</h3>
     <div class="contenedor__articulos">
       <div class="card">
@@ -174,7 +170,7 @@
       <div class="card">
         <figure>
           <a href="#arriba">
-            <img class="card__imagen" src="IMAGENES/braulio.jpg" alt="Puente de Carlos Praga">
+            <img class="card__imagen"  src="IMAGENES/braulio.jpg" alt="Puente de Carlos">
           </a>
         </figure>
         <div class="contenido">
@@ -270,7 +266,7 @@
     
       <h2>Free Tour Ciudad Vieja Praga</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/ciudad vieja2.jpg" alt="panorámica ciudad vieja Praga">        
+        <img src="../IMAGENES/ciudad vieja2.jpg" alt="ciudad vieja Praga">        
         <p>Este recorrido es sin duda alguna la primera toma de contacto con la ciudad de Praga. Simplemente no lo
           puedes dejar pasar, es un recorrido cargado de datos, historias y relatos importantes al terminar este  
           recorrido quedarás con ganas de conocér la segunda parte porque la emoción recien empieza. 
@@ -343,13 +339,13 @@
                 <input type="text" id="nombre" placeholder="Tu Nombre" required>
                 <input type="email" id="email" placeholder="Tu Email" required>
                 <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-                <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
-                <input list="hora"  name="hora" placeholder="Escoge hora del tour">
+                <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
+                <input list="hora"  name="hora" placeholder="Escoge hora del tour" required>
                 <datalist id="hora" >
-                  <option value="hora10">10 AM</option>
-                  <option value="hora11">11 AM</option>
-                  <option value="hora12">12 PM</option>                  
-                  <option value="hora15">03 PM</option>
+                  <option value="10:00 AM"></option>
+                  <option value="11:00 AM"></option>
+                  <option value="12:00 PM"></option>                  
+                  <option value="3:00 PM"></option>
                 </datalist>
                 <input type="number" id="cantPers" min="1" max="10" placeholder="Cantidad de Personas">            
               </div>
@@ -378,7 +374,7 @@
     
       <h2>Free Tour Ciudad Nueva Praga</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/ciudad nueva.jpg" alt="Casa danzante Praga">        
+        <img src="../IMAGENES/ciudad nueva.jpg" alt="Casa danzante Praga">        
         <p>Te interesa el tema de la segunda guerra mundial y el comunismo? este tour es para ti en este recorrido 
           conocerás la historia contemporanea de Chekoslovakia y hoy por hoy República Checa. Como este país paso de la
            monarquía a la república, de la república a protectorado nazi y luego de república al comunismo. Todo eso 
@@ -400,10 +396,10 @@
             <li>Ayuntamiento Ciudad Nueva</li>
             <li>Plaza de Carlos</li>
             <li>Iglesia de Sn. Cirilo y Sn. Metodio</li>
-            <li>Museo contra resistencia nazi</li>
+            <li>Museo de la resistencia contra los nazis</li>
             <li>Casa danzante</li>
             <li>Teatro Nacional</li>
-            <li>Monumero a la Revolucion de Terciopelo</li>
+            <li>Monumero a la Revolución de Terciopelo</li>
             <li>Cafe Louvre</li>
             <li>Cabeza de Kafka (David černy)</li>
                    
@@ -420,7 +416,7 @@
 
         <div class="acordeon__item">
           <input id="item8" name="titulo" type="checkbox">
-          <label for="item8" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
+          <label for="item8" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido"> 2.45 Horas</p>
         </div>
 
@@ -451,12 +447,11 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
-
-              <input list="hora1"  name="hora" placeholder="Escoge hora del tour">
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
+              <input list="hora1"  name="hora" placeholder="Escoge hora del tour" inquired>
               <datalist id="hora1" >
-                <option value="hora1030">10:30 AM</option>
-                <option value="hora15">3 PM</option>    
+                <option value="10:30 AM"></option>
+                <option value="3:00 PM"></option>    
               </datalist>
 
               <input type="number" id="cantPers" min="1" max="10" placeholder="Cantidad de Personas">            
@@ -481,11 +476,12 @@
     
       <h2>Tour del castillo de Praga</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/castillo2.jpg" alt="Castillo de Praga">        
+        <img src="../IMAGENES/castillo2.jpg" alt="Castillo de Praga">        
         <p>No puedes decir que conociste Praga sino nos acompañas en esta visita, conocerás la historia
-          hermoso Castillo de Praga, pero es que no nos limitamos sólo al castillo, conocerás Mala Strana y la ciudad del 
-          castillo y puente de Carlos, si reservas el tour de las 11 AM te llevamos a degustar una cerveza a unos de los monasterios
-          mas antiguos del país y claro está, los monjes nos legaron unas deliciosas recetas de cerveza.
+          hermoso Castillo de Praga, aparte de eso tambien conocerás Mala Strana y la ciudad del 
+          castillo y puente de Carlos, si reservas el tour de las 11 AM te llevamos a degustar una cerveza 
+          a unos de los monasterios más antiguos del país y claro está, los monjes nos legaron unas
+           deliciosas recetas de cerveza.
         </p>
       </figure> 
 
@@ -497,7 +493,7 @@
           <ul class="acordeon__contenido">
             <li>Jardines Reales</li>
             <li>Palacio de Verano</li>
-            <li>Torre de la Polvora</li>
+            <li>Torre de la pólvora</li>
             <li>Patio #1</li>
             <li>Plaza de Hradčany</li>
             <li>Patio #2</li>
@@ -509,7 +505,7 @@
             <li>Vistas panorámicas</li>
             <li>Iglesia del niño Jesus de Praga</li>
             <li>Muro de John Lennon</li>     
-            <li>Monasterio de Strahov (solo por la mañana)</li>
+            <li>Monasterio de Strahov (sólo 11:00 AM)</li>
             <li>Puente de Carlos</li>
           </ul>
         </div>
@@ -524,7 +520,7 @@
 
         <div class="acordeon__item">
           <input id="item13" name="titulo" type="checkbox">
-          <label for="item13" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
+          <label for="item13" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido"> 2.45 Horas</p>
         </div>
 
@@ -555,12 +551,12 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
 
-              <input list="hora2"  name="hora" placeholder="Escoge hora del tour">
+              <input list="hora2"  name="hora" placeholder="Escoge hora del tour" required>
               <datalist id="hora2" >
-                <option value="hora11">11:00 AM</option>
-                <option value="hora1430">14:30 PM</option>    
+                <option value="11:00 AM"></option>
+                <option value="2:30 PM"></option>    
               </datalist>
 
               <input type="number" id="cantPers" min="1" max="10" placeholder="Cantidad de Personas">            
@@ -584,7 +580,7 @@
     
       <h2>Tour de la Cerveza</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/cerveza2.jpg" alt="bodegón cerveza">        
+        <img src="../IMAGENES/cerveza2.jpg" alt="bodegón cerveza">        
         <p>Sabias que: República Checa es el país donde la cerveza es más barata que el agua? y que también
           tiene el record mundial de consumo de cerveza por habitante? Eso sólo nos lleva a una conclusión 
           la cerveza aqui es deliciosa.  La cerveza tiene muchos secretos que queremos compartir contigo y 
@@ -602,18 +598,18 @@
             <li>Visitaremos 3 bares.</li>
             <li>Tienes derecho a 4 cervezas de 300 ml diferentes.</li>
             <li>Como se brinda aquí</li>
-            <li>como debe servirse</li>
+            <li>Como debe servirse</li>
             <li>historia de la cerveza.</li>
             <li>Tambien conocerás como se elabora.</li>
             <li>Y muchos datos y relatos interesantes.</li> 
-            <li>En el último bar/restaurante puedes ordenar la cena (no incluida)</li>
+            <li>En el último bar/restaurante puedes ordenar la cena (no incluida).</li>
             
             
           </ul>
         </div>
 
         <div class="acordeon__item">
-          <input id="item17" name="titulo" type="checkbox">
+          <input id="item17" name="titulo" type="checkbox"> 
           <label for="item17" class="acordeon__titulo">LUGAR DE ENCUENTRO<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido">Plaza de la ciudad Vieja #5 (frente a la joyería
             de Cartier) <span>"Busca el paraguas MORADO (LILA)"</span>
@@ -622,14 +618,14 @@
 
         <div class="acordeon__item">
           <input id="item18" name="titulo" type="checkbox">
-          <label for="item18" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
+          <label for="item18" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido"> 2.30 Horas</p>
         </div>
 
         <div class="acordeon__item">
           <input id="item19" name="titulo" type="checkbox">
           <label for="item19" class="acordeon__titulo">HORARIOS<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido" >19 horas, todos los días.</p>  
+          <p class="acordeon__contenido" >7:00 PM todos los días.</p>  
         </div>
 
         <div class="acordeon__item">
@@ -653,11 +649,11 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
 
-              <input list="hora3"  name="hora" placeholder="Escoge hora del tour">
+              <input list="hora3"  name="hora" placeholder="Escoge hora del tour" required>
               <datalist id="hora3" >
-                <option value="hora19">19:00 AM</option>
+                <option value="7:00 PM"></option>
                   
               </datalist>
 
@@ -682,9 +678,9 @@
     
       <h2>Sesión fotográfica en Praga</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/braulio.jpg" alt="puente de Carlos">        
+        <img src="../IMAGENES/braulio.jpg" alt="Puente de Carlos">        
         <p>Cansado de selfies o de no salir en la foto? quieres fotos con tu familia o pareja y quieres fotos
-          de calidad profesional, podemos solucionar eso, contamos con fotografos experimentados que podrán capturar en sus
+          de calidad profesional?, podemos solucionar eso, contamos con fotografos experimentados que podrán capturar en sus
           sensores esa imagen inolvidable de tu visita a esta bella ciudad. 
         </p>
       </figure> 
@@ -699,7 +695,7 @@
             <li>Recorrido dispoinible para grupos y parejas</li>
             <li>Las sesiones deben reservarse con 15 días de antelación.</li>
             <li>Al momento de pactar la sesión debe hacerse un pago de  50% de anticipación. </li>
-            <li>Si el servicio se cancela debe hacerse 5 dias antes de lo contrario el anticipo
+            <li>Si el servicio se cancela debe hacerse 5 días antes de lo contrario el anticipo
               no será reembolsable.
             </li>
             <li>30 minutos incluye 15 fotos + edición</li>
@@ -721,8 +717,8 @@
 
         <div class="acordeon__item">
           <input id="item23" name="titulo" type="checkbox">
-          <label for="item23" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido">30 minutos, 1.5 horas ó 2 Horas</p>
+          <label for="item23" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
+          <p class="acordeon__contenido">30 minutos, 1.5 ó 2 Horas</p>
         </div>
 
         <div class="acordeon__item">
@@ -734,8 +730,7 @@
         <div class="acordeon__item">
           <input id="item25" name="titulo" type="checkbox">
           <label for="item25" class="acordeon__titulo">PRECIOS<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido" >100 Euros 1/2 Hora, 150 Euros 1,5 horas y 200 
-            Euros 2 horas</p>
+          <p class="acordeon__contenido" >30 MINUTOS 100 Euros/ 1.5 hORAS 150 Euros/ 2 horas 200 Euros</p>
         </div>
 
        
@@ -746,12 +741,12 @@
           <div class="form__tours__titulos">
             <a href="HTML/contacto.html">RESERVA AQUI!</a>
           </div>
-
-            <br>
+<br>
           <div class="formulario__tours">
             <div class="form__tours__titulos">
               <a href="https://www.brauliolaraph.com/portfolio/">Ver portfolio</a>
             </div>
+
          <br>
           <div class="btn__mostrar__container"><a class="mostrarT" href="#arriba">VER TODOS LOS TOURS</a></div>
 
@@ -768,12 +763,12 @@
 
   <div class="tours nomostrar">
     
-      <h2>Tour de las leyendas de Praga</h2>
+      <h2>Free tour de las leyendas de Praga</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/lezendas.jpg" alt="Maternidad San Apolinar Praga">        
+        <img src="../IMAGENES/lezendas.jpg" alt="Maternidad San Apolinar Praga">        
         <p>Praga una ciudad milenaria que alberga muchos secretos. La obscuridad de la noche será nuestra aliada
           para revelarte algunos secretos y conocerás de hechos reales los cuales harán que tu sangre se congele.
-          Si creés tener nervios de acero, acompañanos!</p>
+          Si crées tener nervios de acero, acompañanos!</p>
       </figure> 
 
       <div class="acordeon">
@@ -801,14 +796,14 @@
 
         <div class="acordeon__item">
           <input id="item28" name="titulo" type="checkbox">
-          <label for="item28" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
+          <label for="item28" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido"> 2 Horas</p>
         </div>
 
         <div class="acordeon__item">
           <input id="item29" name="titulo" type="checkbox">
           <label for="item29" class="acordeon__titulo">HORARIOS<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido" >19 horas, todos los días. </p>  
+          <p class="acordeon__contenido" >7:00 PM, todos los días. </p>  
         </div>
 
         <div class="acordeon__item">
@@ -832,11 +827,11 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
 
-              <input list="hora4"  name="hora" placeholder="Escoge hora del tour">
+              <input list="hora4"  name="hora" placeholder="Escoge hora del tour" required>
               <datalist id="hora4" >
-                <option value="hora19">19:00 Horas</option>
+                <option value="7:00 PM"></option>
                   
               </datalist>
 
@@ -862,7 +857,7 @@
     
       <h2>Visita a Karlovy Vary</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/karlovy.jpg" alt="Karlovy Vary">        
+        <img src="../IMAGENES/karlovy.jpg" alt="Karlovy Vary">        
         <p>Muchos le conocen con la ciudad de las fuentes termales, pero Karlovy Vary es mucho mas que eso
           su impresionante arquitectura, sus fuentes y su historia te sorprenderán.  Acompañanos en este recorrido 
           de diez horas donde nuestros experimentados guías se encargarán de nutrirte con relatos interesantes y datos 
@@ -888,7 +883,7 @@
             <li>♦  Iglesia de Santa Maria Magdalena</li>
             <li>♦  La impresionante columnata del Molino y mucho mas...</li>
             <li>♦  Este recorrido no tiene incluida comida.</li>  
-            <li>♦  Este recorrido debe reservarse mínimo con 24 horas de anticipación, sujeto a cupo limitado</li> 
+            <li>♦  Este recorrido debe reservarse mínimo con 24 horas de antelación, sujeto a cupo limitado</li> 
         
           </ul>
         </div>
@@ -903,7 +898,7 @@
 
         <div class="acordeon__item">
           <input id="item33" name="titulo" type="checkbox">
-          <label for="item33" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
+          <label for="item33" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido"> 10 Horas</p>
         </div>
 
@@ -916,7 +911,7 @@
         <div class="acordeon__item">
           <input id="item35" name="titulo" type="checkbox">
           <label for="item35" class="acordeon__titulo">PRECIOS<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido" > Adultos 55 Euros, estudiantes y Senior 50 Euros, niños (4 a 13 años) 45Euros </p>  
+          <p class="acordeon__contenido" > Adultos 55 Euros/ estudiantes y Senior 50 Euros/ niños (4 a 13 años) 45Euros </p>  
         </div>
 
        
@@ -934,9 +929,9 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
 
-              <input list="hora5"  name="hora" placeholder="Escoge hora del tour">
+              <input list="hora5"  name="hora" placeholder="Escoge hora del tour" required>
               <datalist id="hora5" >
                 <option value="9:00 AM"></option>
                   
@@ -949,7 +944,6 @@
         </div>   <!--fin del formulario-->  
 
         <div class="btn__mostrar__container"><a class="mostrarT" href="#arriba">VER TODOS LOS TOURS</a></div>
-      </div>
 
   </div> 
   
@@ -963,7 +957,7 @@
     
       <h2>Visita a Česky Krumlov</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/cesky.jpg" alt="Česky Krumlov">        
+        <img src="../IMAGENES/cesky.jpg" alt="Česky Krumlov">        
         <p>Acompañanos al sur de Bohemia, donde encerrado en los meandros del rio Moldava encontraremos este 
           hermoso pueblo, donde el tiempo se ha detenido para mostrarnos este bello rincón medieval, imagina una 
           ciudad de cuento de hadas, sus calles empedradas sus fondas, su arquitectura. Todo se ha conservado un
@@ -984,9 +978,9 @@
             </li>  
             <li>Jardines del Castillo</li>
             <li>Barrio de Latrán</li>
-            <li>Plaza del azuntamiento</li>
+            <li>Plaza del ayuntamiento</li>
             <li>Este recorrido no tiene incluida comida.</li> 
-            <li>Este recorrido debe reservarse mínimo con 24 horas de anticipación, sujeto a cupo limitado</li>  
+            <li>Este recorrido debe reservarse mínimo con 24 horas de antelacion, sujeto a cupo limitado</li>  
         
           </ul>
         </div>
@@ -1032,11 +1026,11 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
 
-              <input list="hora5"  name="hora" placeholder="Escoge hora del tour">
+              <input list="hora5"  name="hora" placeholder="Escoge hora del tour" requied>
               <datalist id="hora5" >
-                <option value="hora9">09:00 Horas</option>
+                <option value="9:00 AM"></option>
                   
               </datalist>
 
@@ -1062,11 +1056,11 @@
     
       <h2>Visita al guetto de Terezin</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/terezin.jpg" alt="pequeña fortaleza de Terezin">        
+        <img src="../IMAGENES/terezin.jpg" alt="pequeña fortaleza de Terezin">        
         <p>En 1940, 2 años despues de la ocupación de Chekoslovakia por el régimen Nazi, La gestapo
           tomó el control de la prisión en la pequeña fortalza de Terezin, luego fijó su interés en el pueblo 
-          de Terezín a 800 metros convirtiéndo este lugar en un gueto de tránsito, para judios del protectorado
-          de Bohemia y Moravia y luego de muchos paises mas de Europa. El lugar que los Nazis escogieron para 
+          de Terezín a 800 metros convirtiéndo este lugar en un gueto de tránsito, para judíos del protectorado
+          de Bohemia y Moravia y luego de muchos países mas. El lugar que los Nazis escogieron para 
           engañar al mundo, acompañanos a conocer más.
         </p>
       </figure> 
@@ -1105,21 +1099,21 @@
 
         <div class="acordeon__item">
           <input id="item43" name="titulo" type="checkbox">
-          <label for="item43" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
+          <label for="item43" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido"> 7 Horas</p>
         </div>
 
         <div class="acordeon__item">
           <input id="item44" name="titulo" type="checkbox">
           <label for="item44" class="acordeon__titulo">HORARIOS<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido" >10:00 Miercoles, Viernes y Domingos (para grupos o tour privado
+          <p class="acordeon__contenido" >10:00 AM Miercoles, Viernes y Domingos (para grupos o tour privado
             puede realizarse cualquier día)</p>  
         </div>
 
         <div class="acordeon__item">
           <input id="item45" name="titulo" type="checkbox">
           <label for="item45" class="acordeon__titulo">PRECIO<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido" > Adultos 35 Euros, Estudiantes 30, niños 18 Euros (6 a 13 años)</p>  
+          <p class="acordeon__contenido" > Adultos 35 Euros/ Estudiantes 30/ niños 18 Euros (6 a 13 años)</p>  
         </div>
 
        
@@ -1137,13 +1131,13 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
 
-              <input list="hora6"  name="hora" placeholder="Escoge hora del tour">
+              <input list="hora6"  name="hora" placeholder="Escoge hora del tour" required>
               <datalist id="hora6" >
-                <option value="hora10">10 AM Miercoles</option>
-                <option value="hora10">10 AM Viernes</option>
-                <option value="hora10">10 AM Domingo</option>
+                <option value="10:00 AM Miercoles"></option>
+                <option value="10:00 AM Viernes"></option>
+                <option value="10:00 AM Domingo"></option>
                   
               </datalist>
 
@@ -1154,6 +1148,7 @@
         </div>   <!--fin del formulario-->  
 
         <div class="btn__mostrar__container"><a class="mostrarT" href="#arriba">VER TODOS LOS TOURS</a></div>
+      </div>
 
   </div> 
   
@@ -1168,7 +1163,7 @@
     
       <h2>Visita a Kutna Hora</h2>
       <figure class="imagen__tours">
-        <img src="IMAGENES/kutna2.jpg" alt="osario Kutna Hora">        
+        <img src="../IMAGENES/kutna2.jpg" alt="osario Kutna Hora">        
         <p> Gracias a la extracción de plata, fue una de las ciudades reales Checas más importantes de la
            Edad Media y es que de sus minas se extrajeron cerca de 1500 toneladas de Plata, este pequeña ciudad
            jugó un papel importante durante las guerras religiosas Jusitas. Algo que la hace interesante y a la 
@@ -1209,7 +1204,7 @@
 
         <div class="acordeon__item">
           <input id="item48" name="titulo" type="checkbox">
-          <label for="item48" class="acordeon__titulo">DURACION<span class="icon-down-open"></span></label>
+          <label for="item48" class="acordeon__titulo">DURACIÓN<span class="icon-down-open"></span></label>
           <p class="acordeon__contenido"> 7 Horas</p>
         </div>
 
@@ -1223,7 +1218,7 @@
         <div class="acordeon__item">
           <input id="item50" name="titulo" type="checkbox">
           <label for="item50" class="acordeon__titulo">PRECIO<span class="icon-down-open"></span></label>
-          <p class="acordeon__contenido" > Adultos 35 Euros, Estudiantes 30, niños 18 Euros (6 a 13 años)</p>  
+          <p class="acordeon__contenido" > Adultos 35 Euros/ Estudiantes 30/ niños 18 Euros (6 a 13 años)</p>  
         </div>
 
        
@@ -1241,13 +1236,12 @@
               <input type="text" id="nombre" placeholder="Tu Nombre" required>
               <input type="email" id="email" placeholder="Tu Email" required>
               <input type="phone" id="phone" placeholder="Tu número teléfonico" required>
-              <input type="date" id="fechaReserva" placeholder="Fecha del Tour" required>
-
-              <input list="hora7"  name="hora" placeholder="Escoge hora del tour">
+              <input type="date" class="fechaReserva" placeholder="Fecha del Tour" required>
+              <input list="hora7"  name="hora" placeholder="Escoge hora del tour" required>
               <datalist id="hora7" >
-                <option value="hora10">10 AM Martes</option>
-                <option value="hora10">10 AM Jueves</option>
-                <option value="hora10">10 AM Sabado</option>
+                <option value="10:00 AM Martes"></option>
+                <option value="10:00 AM Jueves"></option>
+                <option value="10:00 AM Sabado"></option>
                   
               </datalist>
 
@@ -1304,7 +1298,7 @@
             
           </div>
 
-         <div class="avisos">
+          <div class="avisos">
             <h4>LEGAL</h4>
             <a href="HTML/Aviso legal web.html" >Aviso Legal</a>
             
@@ -1349,11 +1343,7 @@
     <script src="JS/carrusel.js"></script>
     <script src="JS/menu.js"></script>
     <script src="JS/formularioTours.js"></script>
-    <script src="JS/calendario.js"></script>
-    <!--<script src="JS/index.js"></script>-->
-    
-    
-    
+    <script src="JS/calendario.js"></script>    
 
 </body>
 </html>
