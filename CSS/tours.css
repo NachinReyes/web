@@ -305,6 +305,15 @@
     border: none;
 }
 
+.tours__back{
+    width: 40%;
+    float: right;
+    transition: .5s;
+}
+
+.tours__back a{
+    font-weight: bold;
+}
 
 
 /*******************************RESPONSIVE***********************/
