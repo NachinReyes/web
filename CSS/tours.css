@@ -210,13 +210,6 @@
     
 }
 
-
-/*.form__tours__titulo{
-    width: 80%;
-    height: 40px;
-    background: rgb(51, 107, 228);
-    
-}*/
 .form__tours__titulo{
     text-align: center;
     margin-top: 20px;
@@ -236,6 +229,13 @@
 .form__tours__titulo h3:active{
     transform:scale(.99);
     box-shadow:none;
+}
+
+.form__tours__titulos{
+    margin-top:15px;
+    margin-left:25px;
+    margin-bottom:10px;
+    font-weight: bold;
 }
 
 .form__tours__body{
