@@ -110,6 +110,12 @@ figure .cerveza{
     text-decoration: none; 
 }
 
+.icon-cancel{
+    color:red;
+    float:right;
+    font-size:16px;
+}
+
 @media(min-width:550px){
     .card{
        width:400px;
