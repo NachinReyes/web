@@ -119,6 +119,7 @@ figure .cerveza{
     width:35px;
     border:2px solid red;
     border-radius:50%;
+    text-align:center;
 }
 
 .icon-cancel:hover{
