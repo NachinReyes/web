@@ -43,4 +43,12 @@ var formTours = document.querySelectorAll(".form__tours__body")
             toursG.forEach(element => element.style.display="none")
               
             })
+
+/*cerrar formularios*/
+var cerrarForm = document.querySelectorAll(".icon-cancel");
+cerrarForm.forEach(element => element.onclick=function(){
+    formTours.forEach(element => element.style.display="none");
+              
+            })
+
     
