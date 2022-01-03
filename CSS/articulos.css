@@ -121,10 +121,12 @@ figure .cerveza{
     border:2px solid red;
     border-radius:50%;
     text-align:center;
+    cursor:pointer;
 }
 
 .icon-cancel:hover{
-    transform:rotate(180deg);
+    background:red;
+    color:#fff;
     transition: .5s;
 }
 
