@@ -28,7 +28,7 @@ var formTours = document.querySelectorAll(".form__tours__body")
         for(var i = 0; i<card.length;i++){
             card[i].addEventListener('click', (e) => {  
               var sele = Array.from(card).indexOf(e.target);
-              console.log(selec);
+              console.log(sele);
               
               toursG.forEach(element => element.style.display="none");
               var selec = toursG[`${sele}`].style.display ="block";
