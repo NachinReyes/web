@@ -117,6 +117,7 @@ figure .cerveza{
     font-size:20px;
     margin-top:20px;
     width:35px;
+    height:35px;
     border:2px solid red;
     border-radius:50%;
     text-align:center;
