@@ -42,21 +42,6 @@ header label{
     border-radius:4px;
 }
 
-.icon-cerrar{
-     position: relative;
-    top: 10px;
-    width:40px;
-    margin-right: 20px;
-    float: right;
-    cursor: pointer;
-    font-size: 20px;
-    z-index: 104;
-    color:var(--color_principal);
-    border:2px solid var(--color_principal);
-    text-align:center;
-    border-radius:4px;
-}
-
 #barra{
     display: block;
     transition:.7s;
