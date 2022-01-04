@@ -112,11 +112,14 @@ figure .cerveza{
 }
 
 .icon-cancel-circle{
+    position:absolute
+    width: 35px;
+    text-align:center;
     color:red;
     float:right;
     font-size:35px;
     margin-top:30px;
-    margin-right:-7px;
+    right:0px;
     cursor:pointer;
 }
 
