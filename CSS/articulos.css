@@ -111,7 +111,7 @@ figure .cerveza{
     text-decoration: none; 
 }
 
-.icon-cancel{
+.icon-cancel-circle{
     color:red;
     float:right;
     font-size:20px;
@@ -124,7 +124,7 @@ figure .cerveza{
     cursor:pointer;
 }
 
-.icon-cancel:hover{
+.icon-cancel-circle:hover{
     background:red;
     color:#fff;
     transition: .5s;
