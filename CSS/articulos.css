@@ -123,7 +123,7 @@ figure .cerveza{
 }
 
 .icon-cancel-circle:hover{
-    transform:scale(.98);
+    transform:rotate(180deg);
     transition: .5s;
 }
 
