@@ -114,19 +114,16 @@ figure .cerveza{
 .icon-cancel-circle{
     color:red;
     float:right;
-    font-size:20px;
+    font-size:35px;
     margin-top:30px;
-    width:35px;
-    height:35px;
-    border:2px solid red;
-    border-radius:50%;
+    
+   
     text-align:center;
     cursor:pointer;
 }
 
 .icon-cancel-circle:hover{
-    background:red;
-    color:#fff;
+    transform:scale(.98);
     transition: .5s;
 }
 
