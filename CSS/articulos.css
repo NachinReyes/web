@@ -134,6 +134,10 @@ figure .cerveza{
        heights:400px;
        bottom:15px;
 }
+    .icon-cancel-circle{
+        right:55px;
+    }
+    
 }
 
 @media (min-width:1024px) {
@@ -174,5 +178,9 @@ figure .cerveza{
         width:80%;
         height: 280px;
         background:none;
+    }
+    
+      .icon-cancel-circle{
+        right:45px;
     }
 }
